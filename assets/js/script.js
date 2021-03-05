@@ -88,7 +88,7 @@ const game = (function () {
                  * Using Math.round() will give you a non-uniform distribution!
                  * Reference: https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range/1527820#1527820
                  */
-                const getRandomInt = function(min, max) {
+                function getRandomInt(min, max) {
                     min = Math.ceil(min);
                     max = Math.floor(max);
                     return Math.floor(Math.random() * (max - min + 1)) + min;
