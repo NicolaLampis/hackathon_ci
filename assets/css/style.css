@@ -4,12 +4,15 @@
 /* -------------------------------------Special Styling */
 
 
-
 /* -------------------------------------HEADER SECTION */
 /* -------------------------------------Navbar */
 
 
 /* -------------------------------------MAIN BODY STYLING */
+body {    
+    background-image: url(/assets/images/klee-3141937_1280.png); 
+    color: white;
+}
 
 
 
