@@ -14,7 +14,7 @@
 
 Hackathon Project
 ======
-## <img src="assets/images/shamrock.png"> Happy St. Patricks Day Quizz Game <img src="assets/images/shamrock.png">
+## <img src="assets/images/shamrock.png"> Happy St. Patricks Day Game Quizz<img src="assets/images/shamrock.png">
 
 By: LaiMo, Nicola, Simon, Sue, SuzyBee, Tobi, Marina, March 2021<br>
 This Project is an Team Event Project organized by [Code Institute](https://www.codeinstitute.net/).
