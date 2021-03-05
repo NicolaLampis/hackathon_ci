@@ -35,7 +35,9 @@ h3 {
     font-family: 'Lobster', cursive, sans-serif;    
 }
 
-
+#banner {
+    width: 80%;
+}
 
 
 /* -------------------------------------Animations */
@@ -63,3 +65,9 @@ h3 {
 
 
 /* -------------------------------------Responsive Design - MOBILE */
+@media screen and (min-width: 991px) {
+    #banner {
+    width: 60%;
+}
+
+}
