@@ -38,7 +38,9 @@ h3 {
 #banner {
     width: 80%;
 }
-
+#leprechaun {
+    width: 50%;
+}
 
 /* -------------------------------------Animations */
 
@@ -68,6 +70,9 @@ h3 {
 @media screen and (min-width: 991px) {
     #banner {
     width: 60%;
+}
+    #leprechaun {
+    width: 70%;
 }
 
 }
