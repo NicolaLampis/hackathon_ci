@@ -10,7 +10,9 @@
 
 /* -------------------------------------MAIN BODY STYLING */
 body {    
-    background-image: url(/assets/images/klee-3141937_1280.png); 
+    background-image: url(/assets/images/background-clover.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
 }
 
@@ -23,7 +25,9 @@ body {
 
 /* -------------------------------------Buttons */
 
-
+.quitz-row button {
+    width: 95%;
+}
 
 /* -------------------------------------FOOTER SECTION */
 /* -------------------------------------Social Media Links */
