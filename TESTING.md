@@ -1,0 +1,152 @@
+![Steal the Gold](assets/images/leprechaun.png)
+
+# **Steal the Gold Testing Details** #
+
+
+[Main README.md file](https://github.com/NicolaLampis/hackathon_ci/blob/master/README.md)
+
+[View the live project here.](https://nicolalampis.github.io/hackathon_ci/)
+
+---
+
+## **Table of Contents** ##
+
+- [**Steal the Gold Testing Details**](#steal-the-gold-testing-details)
+  - [**Table of Contents**](#table-of-contents)
+  - [**Automated Testing**](#automated-testing)
+    - [**Validation Services**](#validation-services)
+  - [**Manual Testing**](#manual-testing)
+    - [**Unit Testing**](#unit-testing)
+    - [**User Acceptance Testing (UAT)**](#user-acceptance-testing-uat)
+    - [**Peer Code Review**](#peer-code-review)
+    - [**Testing undertaken on desktop**](#testing-undertaken-on-desktop)
+    - [**Testing undertaken on tablet and phone devices**](#testing-undertaken-on-tablet-and-phone-devices)
+  - [**Bugs discovered**](#bugs-discovered)
+      - [**Known Bugs**](#known-bugs)
+      - [**Unsolved Issues**](#unsolved-issues)
+
+
+---
+## **Automated Testing** ##
+
+### **Validation Services** ###
+
+The following **validation services** and **linters** were used to check the validity of the website code.
+
+
+- [W3C Markup Validation](https://validator.w3.org/) 
+  - This validator checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc.
+
+- [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
+  - This validator checks the validity of cascading style sheets (css) and (X)HTML documents with style sheets.
+
+- [Chrome DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse)
+  - An open-source automated tool for improving webpages by running audits for performance, accessibility, progressive web apps, SEO etc.
+
+
+  - **Desktop Performance Report**
+    
+    ![Google Lighthouse - Desktop](assets/images/<image-filename>.png)
+
+  - **Mobile Performance Report**
+
+    ![Google Lighthouse - Mobile](assets/images/<image-filename>.png)
+
+
+- [JSHint (version 2.12.0)](https://jshint.com/)
+  - JSHint is a community-driven tool that detects errors and potential problems in JavaScript code.
+  - The following option were selected to prevent  errors and warning being returned owing to the strict nature of the checking:
+
+    ![JSLint Options](assets/img/testing-jshint-options.png)
+
+  - clock.js and alarm.js testing using JSHint passed the linter test successfully with the following selected additional option:
+    - New JavaScript features (ES6)
+      - This was selected as both scripts use ECMAScript 6 features such as `const`
+
+
+  - **style.js results**
+  
+    ![JSLint Options](assets/img/testing-jshint-results-alarm.png)
+
+
+---
+
+
+## **Manual Testing** ##
+
+### **Unit Testing** ###
+[Unit Testing document](testing/unit-test-plan.pdf) containing:
+- Unit Test scope,
+- The test cases,
+- The pass / fail record for each test case.
+
+
+### **User Acceptance Testing (UAT)** ###
+[UAT document](testing/uat-test-plan.pdf) containing:
+- UAT approach (scope, assumptions and constraints, team roles and responsibilities etc.), 
+- Identified risks, 
+- The test cases,
+- The pass / fail record for each test case.
+
+
+### **Peer Code Review** ###
+The deployed website link was subjected to peer code review and testing:
+- Team-18 project team members
+
+### **Testing undertaken on desktop** ###
+
+- Hardware:
+    - Macbook Pro Laptop 17" (2009)
+    - Dell 5590 Laptop
+- Tested Operating Systems:
+    - Windows 10
+    - OSX 10.11 
+- Tested Browsers:
+    - Windows 10:
+        - Chrome
+        - Firefox
+        - Edge 
+    - OSX 10.11
+        - Chrome
+        - Firefox
+        - Safari
+
+### **Testing undertaken on tablet and phone devices** ###
+
+- Hardware:
+    - iPad Pro 12.9"
+    - iPad Pro 10.5"
+    - iPhone XS Max
+- Tested Operating Systems:
+    - iOS 14.4
+    - iPadOS 14.4
+- Tested Browsers:
+    - iOS / iPadOS
+        - Chrome
+        - Firefox
+        - Edge
+        - Safari
+
+---
+
+
+## **Bugs discovered** ##
+
+The issue log is managed on the [GitHub Project Issues section](https://github.com/NicolaLampis/hackathon_ci/issues) using the standard GitHub [bug\_report.md template](https://github.com/NicolaLampis/hackathon_ci/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
+
+
+#### **Known Bugs** ####
+
+[Issue #xx:](<issue-URL>)
+- **Bug Report Title**
+  - .
+
+[Issue #xx:](<issue-URL>)
+- **Bug Report Title**
+  - .
+
+#### **Unsolved Issues** ####
+
+[Issue #xx:](<issue-URL>)
+- **Bug Report Title**
+  - .
