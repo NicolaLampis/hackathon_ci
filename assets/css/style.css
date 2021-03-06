@@ -20,13 +20,17 @@
 
 /* -------------------------------------MAIN BODY STYLING */
 body {    
-    background-image: url(/assets/images/background-clover.jpg); 
-    background-repeat: no-repeat;
-    background-size: cover;
     color: white;   
     height: 100vh;
-    
     font-family: 'Roboto', sans-serif;
+}
+
+.main-background {
+    background-image: url(../images/background-clover3.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    min-height: 100vh;
 }
 
 h1,
@@ -39,7 +43,10 @@ h3 {
     width: 80%;
 }
 #leprechaun {
-    width: 50%;
+    width: 25%;
+}
+#pot-gold {
+    height: 80px;
 }
 
 /* -------------------------------------Animations */
@@ -72,7 +79,8 @@ h3 {
     width: 60%;
 }
     #leprechaun {
-    width: 70%;
+    width: 20%;
+    max-width: 200px;
 }
 
 }
