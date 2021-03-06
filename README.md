@@ -166,6 +166,8 @@ We chose for the website the Irish and St. Patricks Day colours.<br>
 - *Green Pigment* (#009B4B) - Bright Green
 - *White* (#FFFFFF) - White
 - *Heat Wave* (#FF7900) - Bright Orange
+- rgb(66, 212, 110) - Dark Green for the answer correct button
+- #f8953e - Light Orange for the answer incorrect button
 
 
 These colours will compliment each other well and provide the user with a distinct, recognisable  colour scheme commonly identified with St. Patrick's Day celebrations.
