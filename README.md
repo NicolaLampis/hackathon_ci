@@ -34,7 +34,7 @@ All screenshots created using [Am I responsive](http://ami.responsivedesign.is/)
 
 Live Project
 ======
-[View the live project here]()
+[View the live project here](https://NicolaLampis.github.io/hackathon_ci/)
 
 ## Contents ##
 ​
