@@ -40,7 +40,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3 
+h6 {
     font-family: 'Lobster', cursive, sans-serif;    
 }
 
@@ -52,22 +53,6 @@ h3 {
 }
 #pot-gold {
     height: 80px;
-}
-
-.correctAnswer {
-    background-color: aqua;
-}
-
-.wrongAnswer {
-    background-color: tomato;
-}
-
-.correctAnswer {
-    background-color: aqua;
-}
-
-.wrongAnswer {
-    background-color: tomato;
 }
 
 /* -------------------------------------Animations */
@@ -92,6 +77,8 @@ h3 {
 
 
 
+
+
 /* -------------------------------------Responsive Design - MOBILE */
 @media screen and (min-width: 991px) {
     #banner {
@@ -101,5 +88,37 @@ h3 {
     width: 20%;
     max-width: 200px;
 }
+}
 
+footer {        
+        background-color: black;
+        color: white;
+        text-align: center;
+}
+
+footer p {
+    font-size: 15px;
+    text-align: right;
+}
+
+.social-media {
+    background-color: black;
+    text-align: left;
+    text-decoration: none;
+    height: 100%;
+}
+
+.social-media li {
+    display: inline-block;    
+}
+
+.social-media i {
+    font-size: 100%;
+    margin: 1%;
+    padding: 1%;
+    color: white;
+} 
+
+.social-media i:hover {
+    color:green;
 }
