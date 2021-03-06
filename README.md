@@ -14,7 +14,7 @@
 
 Hackathon Project
 ======
-## <img src="assets/images/shamrock.png"> Happy St. Patricks Day Game Quizz<img src="assets/images/shamrock.png">
+## <img src="assets/images/shamrock.png"> Happy St. Patrick's Day Quiz<img src="assets/images/shamrock.png">
 
 By: LaiMo, Nicola, Simon, Sue, SuzyBee, Tobi, Marina, March 2021<br>
 This Project is an Team Event Project organized by [Code Institute](https://www.codeinstitute.net/).
@@ -39,7 +39,7 @@ Live Project
 ## Contents ##
 ​
 - [Hackathon Project](#hackathon-project)
-  - [<img src="assets/images/shamrock.png"> Happy St. Patricks Day Game Quizz<img src="assets/images/shamrock.png">](#-happy-st-patricks-day-game-quizz)
+  - [Happy St. Patricks Day Quiz](#-happy-st-patricks-day-quiz-)
 - [Project description](#project-description)
 - [Screenshot](#screenshot)
 - [Live Project](#live-project)
@@ -179,6 +179,7 @@ The Hero image is the irish flag in a banner desing.
 ​
 paint. net was used to create the wireframes during the design process.
 [View the wireframes here.](wireframes/paddy-day-quiz.jpg)
+
 
 ​---  
 ​

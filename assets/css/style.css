@@ -13,12 +13,15 @@
 
 .paddy-day-header {
     font-size: 3.75rem;
-    margin-bottom: 40px;
+    margin: 0;    
 }
 
-.gold-header {
-    font-size: 3.75rem;
-    margin-bottom: 20px;
+.question-part h2 {
+    margin: 20px 0;
+}
+
+button h4 {
+    text-transform: uppercase;    
 }
 /* -------------------------------------Navbar */
 
@@ -31,7 +34,7 @@ body {
 }
 
 .main-background {
-    background-image: url(../images/background-clover3.png); 
+    background-image: url(../images/bg-shamrock.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -54,6 +57,12 @@ h6 {
 #pot-gold {
     height: 80px;
 }
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.35);    
+    padding: 20px 0;
+}
+
 
 /* -------------------------------------Animations */
 
@@ -88,6 +97,18 @@ h6 {
     width: 20%;
     max-width: 200px;
 }
+}
+
+@media screen and (max-width: 400px) {
+    .paddy-day-header {
+    font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .responsive-text h4 {
+    margin: 1.5rem!important;    
+    }
 }
 
 footer {        
