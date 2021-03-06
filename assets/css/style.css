@@ -84,4 +84,20 @@ h3 {
 }
 
 }
+.social-media {
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    height: 160%;
+}
 
+
+.social-media i {
+    margin: 1%;
+    padding: 10%;
+    color: white;  
+}
+
+.social-media li {
+    display: inline-block;    
+}

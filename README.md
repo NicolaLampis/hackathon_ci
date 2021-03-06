@@ -103,7 +103,7 @@ Live Project
 To come up with a website that will help people to celebrate St Patrick’s day together, while apart 
 We want to make effective use of course knowledge and collaborate together
 Make a project that works and is practical
-Work together as a team and ensure each team member feels included and has the opportunity to contribute what they re able and we all have fun and learn the skills necessary for collaboration.
+Work together as a team and ensure each team member feels included and has the opportunity to contribute what they are able and we all have fun and learn the skills necessary for collaboration.
 Give attention to the project presentation and adhere to the theme
 Build something awesome that we are proud of as a team.
 ​
