@@ -70,12 +70,12 @@ h6 {
 
 
 .correctAnswer:disabled {
-    background-color: aqua;
+    background-color: rgb(66, 212, 110);
     opacity: unset;
 }
 
 .wrongAnswer:disabled {
-    background-color: tomato;
+    background-color: #f8953e;
     opacity: unset;
 }
 
