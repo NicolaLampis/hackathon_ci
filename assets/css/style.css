@@ -12,9 +12,14 @@
 }
 
 .paddy-day-header {
-    font-size: 40px;
+    font-size: 3.75rem;
+    margin-bottom: 40px;
 }
 
+.gold-header {
+    font-size: 3.75rem;
+    margin-bottom: 20px;
+}
 /* -------------------------------------Navbar */
 
 
