@@ -26,7 +26,7 @@ body {
 }
 
 .main-background {
-    background-image: url(/assets/images/background-clover2.jpg); 
+    background-image: url(/assets/images/background-clover3.png); 
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -44,6 +44,9 @@ h3 {
 }
 #leprechaun {
     width: 25%;
+}
+#pot-gold {
+    height: 80px;
 }
 
 /* -------------------------------------Animations */
