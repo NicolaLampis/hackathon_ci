@@ -120,9 +120,15 @@ I achieve this by:
 ​
 ### User Stories ###
 ​
-- As a **user**, I want to ...
-- As a **user**, I want to be able to ....
-- As a **user**, I want to ...
+- As a user, I want the home screen to be simple with a clear indication of what I can do and to be able to navigate it easily.
+- As a user, I want to play the game so I can compete against my friends and win the game
+- As a user, I want to see the button to Start the game and would like to see the answers as I select them and see the score increase as I progress through the game
+- As a user I would like the game to have an Irish theme
+- As a user, I want to see social media links in the footer
+- as a user I want to see my score at the end of the quiz
+- as a user I want to know more about St Patrick, so that i have a better knowledge about it
+- as a user i want to see my progress, how many questions are left and how many i already answered
+- as a user i want to give an answer and have feedback whether it is correct or not
 ​
 ### Site Owner Goals ###
 ​
@@ -137,7 +143,7 @@ I achieve this by:
 ​
 ### Fonts ###
 ​
-We chose the [Lobbster](https://fonts.google.com/specimen/Lobster?preview.text_type=custom#standard-styles) font for the h1-h3 and the [Roboto](https://fonts.google.com/specimen/Roboto?preview.text_type=custom) font as basic and Sans-Serif as default font.
+We chose the [Lobster](https://fonts.google.com/specimen/Lobster?preview.text_type=custom#standard-styles) font for the h1-h3 and the [Roboto](https://fonts.google.com/specimen/Roboto?preview.text_type=custom) font as basic and Sans-Serif as default font.
 ​
 ### Colours ###
 ​
