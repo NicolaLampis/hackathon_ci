@@ -13,7 +13,7 @@
 
 .paddy-day-header {
     font-size: 3.75rem;
-    margin: 0;    
+    margin: 0;
 }
 
 .question-part h2 {
@@ -21,7 +21,7 @@
 }
 
 button h4 {
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
 /* -------------------------------------Navbar */
 
@@ -34,7 +34,7 @@ body {
 }
 
 .main-background {
-    background-image: url(../images/bg-shamrock.jpg); 
+    background-image: url(../images/bg-shamrock.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -43,7 +43,7 @@ body {
 
 h1,
 h2,
-h3 
+h3
 h6 {
     font-family: 'Lobster', cursive, sans-serif;    
 }
@@ -59,10 +59,19 @@ h6 {
 }
 
 .jumbotron {
-    background-color: rgba(0, 0, 0, 0.35);    
+    background-color: rgba(0, 0, 0, 0.35);
     padding: 20px 0;
 }
 
+.correctAnswer:disabled {
+    background-color: aqua;
+    opacity: unset;
+}
+
+.wrongAnswer:disabled {
+    background-color: tomato;
+    opacity: unset;
+}
 
 /* -------------------------------------Animations */
 
@@ -107,11 +116,11 @@ h6 {
 
 @media screen and (max-width: 400px) {
     .responsive-text h4 {
-    margin: 1.5rem!important;    
+    margin: 1.5rem!important;
     }
 }
 
-footer {        
+footer {
         background-color: black;
         color: white;
         text-align: center;
@@ -130,7 +139,7 @@ footer p {
 }
 
 .social-media li {
-    display: inline-block;    
+    display: inline-block;
 }
 
 .social-media i {
@@ -138,7 +147,7 @@ footer p {
     margin: 1%;
     padding: 1%;
     color: white;
-} 
+}
 
 .social-media i:hover {
     color:green;
