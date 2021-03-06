@@ -20,7 +20,7 @@
 
 /* -------------------------------------MAIN BODY STYLING */
 body {    
-    background-image: url(/assets/images/background-clover.jpg); 
+    background-image: url('/assets/images/background-clover.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
     color: white;   
