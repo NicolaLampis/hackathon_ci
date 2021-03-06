@@ -87,27 +87,54 @@ h3 {
     width: 20%;
     max-width: 200px;
 }
-
 }
 
 footer {        
         background-color: black;
         color: white;
         text-align: center;
-        
+}
+
+footer p {
+    font-size: 15px;
+    text-align: right;
 }
 
 .social-media {
-    text-align: center;
+    background-color: black;
+    text-align: left;
+    text-decoration: none;
+    height: 100%;
+}
+
+
+.social-media i {
+    margin: 1%;
+    padding: 10%;
+    color: white; 
 }
 
 .social-media li {
-        display: inline;
+    display: inline-block;    
 }
 
 .social-media i {
     font-size: 100%;
-    margin: 0%;
+    margin: 1%;
     padding: 1%;
     color: white;
+} 
+
+.social-media i:hover {
+    color:green;
 }
+
+/* .social-media {
+    background-color:black;
+    text-align: center;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    margin: 1%;
+    display: inline;
+} */
