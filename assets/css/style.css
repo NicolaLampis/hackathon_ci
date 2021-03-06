@@ -55,6 +55,22 @@ h6 {
     height: 80px;
 }
 
+.correctAnswer {
+    background-color: aqua;
+}
+
+.wrongAnswer {
+    background-color: tomato;
+}
+
+.correctAnswer {
+    background-color: aqua;
+}
+
+.wrongAnswer {
+    background-color: tomato;
+}
+
 /* -------------------------------------Animations */
 
 
@@ -74,8 +90,6 @@ h6 {
 
 /* -------------------------------------Media Queries */
 /* -------------------------------------Responsive Design - TABLET */
-
-
 
 
 
