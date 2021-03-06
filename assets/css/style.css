@@ -12,7 +12,13 @@
 }
 
 .paddy-day-header {
-    font-size: 40px;
+    font-size: 3.75rem;
+    margin-bottom: 40px;
+}
+
+.gold-header {
+    font-size: 3.75rem;
+    margin-bottom: 20px;
 }
 
 /* -------------------------------------Navbar */
@@ -22,11 +28,11 @@
 body {    
     background-image: url(/assets/images/background-clover.jpg); 
     background-repeat: no-repeat;
-    background-size: cover;
-    color: white;   
-    height: 100vh;
+    background-size: cover;      
+    height: 100vh;    
     
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 h1,
@@ -38,6 +44,7 @@ h3 {
 #banner {
     width: 80%;
 }
+
 #leprechaun {
     width: 50%;
 }
