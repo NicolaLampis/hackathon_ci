@@ -26,7 +26,7 @@ body {
 }
 
 .main-background {
-    background-image: url(/assets/images/background-clover3.png); 
+    background-image: url(../images/background-clover3.png); 
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -80,6 +80,7 @@ h3 {
 }
     #leprechaun {
     width: 20%;
+    max-width: 200px;
 }
 
 }
