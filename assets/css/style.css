@@ -11,22 +11,12 @@
     object-fit: cover;
 }
 
-.paddy-day-header {
-    font-size: 3.75rem;
-    margin-bottom: 40px;
-}
-
-.gold-header {
-    font-size: 3.75rem;
-    margin-bottom: 20px;
-}
-
 /* -------------------------------------Navbar */
 
 
 /* -------------------------------------MAIN BODY STYLING */
 body {    
-    background-image: url(/assets/images/background-clover.jpg); 
+    background-image: url(/assets/images/bg-shamrock.jpg); 
     background-repeat: no-repeat;
     background-size: cover;      
     height: 100vh;    
@@ -35,10 +25,31 @@ body {
     color: white;
 }
 
+.main-background {
+    background-image: url(../images/bg-shamrock.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    min-height: 100vh;
+}
+
 h1,
 h2,
 h3 {
     font-family: 'Lobster', cursive, sans-serif;    
+}
+
+.paddy-day-header {
+    font-size: 3.75rem;    
+}
+
+.gold-header {
+    font-size: 3.75rem;
+    margin-bottom: 20px;
+}
+
+button h4 {
+    text-transform: uppercase;    
 }
 
 #banner {
@@ -46,7 +57,16 @@ h3 {
 }
 
 #leprechaun {
-    width: 50%;
+    width: 25%;
+}
+#pot-gold {
+    height: 80px;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.295);
+    width: 95%;
+    padding: 20px 0;
 }
 
 /* -------------------------------------Animations */
@@ -79,8 +99,14 @@ h3 {
     width: 60%;
 }
     #leprechaun {
-    width: 70%;
+    width: 20%;
+    max-width: 200px;
 }
 
 }
 
+@media screen and (max-width: 400px) {
+    .paddy-day-header {
+    font-size: 3rem;
+    }
+}
