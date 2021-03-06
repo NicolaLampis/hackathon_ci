@@ -829,7 +829,7 @@ const pageHandler = (function () {
 
             if (typeof(questionData) === "number") {
 
-                alert("You finished the game!");
+                $("#toastWin").toast("show");
 
             } else {
 
