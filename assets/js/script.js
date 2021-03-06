@@ -250,7 +250,8 @@ let questionList = [
 
     {
     "id": 20,
-    "question": "Which of these statements about Guinness is true?": {
+    "question": "Which of these statements about Guinness is true?", 
+    "answers": {
         "a": "It contains antioxidants",
         "b": "It was once given to pregnant ladies as doctors believed it was good for the baby",
         "c": "It may promote bone density",
@@ -258,7 +259,7 @@ let questionList = [
     },
     "correct": "d",
     "url": "placeholder"
-}
+},
 
     {
     "id": 21,
@@ -314,7 +315,8 @@ let questionList = [
 
     {
     "id": 25,
-    "question": "When was Trinity College founded?": {
+    "question": "When was Trinity College founded?",
+    "answers": {
         "a": "1552",
         "b": "1569",
         "c": "1592",
@@ -495,7 +497,8 @@ let questionList = [
 
     {
     "id": 39,
-    "question": "Which is the longest river in the British Isles?": {
+    "question": "Which is the longest river in the British Isles?",
+    "answer": {
         "a": "River Shannon",
         "b": "River Suir",
         "c": "River Liffey",
@@ -507,7 +510,8 @@ let questionList = [
 
     {
     "id": 40,
-    "question": "Which musical instrument is on the Coat of Arms of the Kingdom of Ireland?": {
+    "question": "Which musical instrument is on the Coat of Arms of the Kingdom of Ireland?",
+    "answer": {
         "a": "Fiddle",
         "b": "Flute",
         "c": "Harp",
@@ -519,7 +523,8 @@ let questionList = [
 
     {
     "id": 41,
-    "question": "Greater Dublin is the birthplace of three winners of the Nobel Prize for Literature. Which of these authors didn't receive one?": {
+    "question": "Greater Dublin is the birthplace of three winners of the Nobel Prize for Literature. Which of these authors didn't receive one?",
+    "answer": {
         "a": "Oscar Wilde",
         "b": "Samuel Beckett",
         "c": "George Bernard Shaw",
@@ -531,7 +536,8 @@ let questionList = [
 
     {
     "id": 42,
-    "question": "Which Irish baker invented both the fig roll and the cream cracker?": {
+    "question": "Which Irish baker invented both the fig roll and the cream cracker?",
+    "answer": {
         "a": "WR Jacobs",
         "b": "May Graham",
         "c": "Darina Allen",
@@ -543,7 +549,8 @@ let questionList = [
 
     {
     "id": 43,
-    "question": "Where was the Titanic built?": {
+    "question": "Where was the Titanic built?",
+    "answer": {
         "a": "Dublin",
         "b": "Cork",
         "c": "Kerry",
@@ -555,7 +562,8 @@ let questionList = [
 
     {
     "id": 44,
-    "question": "How many men were employed to build the Titanic (approx.)?": {
+    "question": "How many men were employed to build the Titanic (approx.)?",
+    "answer": {
         "a": "10,000",
         "b": "14,000",
         "c": "16,000",
@@ -567,7 +575,8 @@ let questionList = [
 
     {
     "id": 45,
-    "question": "What is the population of the Republic of Ireland?": {
+    "question": "What is the population of the Republic of Ireland?",
+    "answer": {
         "a": "3.4 million",
         "b": "3.9 million",
         "c": "4.9 million",
@@ -580,7 +589,8 @@ let questionList = [
 
     {
     "id": 46,
-    "question": "Which Irish airport in 1947 became the first in the World to open a duty-free shop?": {
+    "question": "Which Irish airport in 1947 became the first in the World to open a duty-free shop?",
+    "answer": {
         "a": "Dublin",
         "b": "Shannon",
         "c": "Knock",
@@ -592,7 +602,8 @@ let questionList = [
 
     {
     "id": 47,
-    "question": "Which of these countries compete in the Guinness Six Nations Championship?": {
+    "question": "Which of these countries compete in the Guinness Six Nations Championship?",
+    "answer": {
         "a": "Ireland, Scotland, Germany, France, Wales, Italy",
         "b": "Ireland, Scotland, England, France, Wales, Spain",
         "c": "Ireland, Norway, England, France, Wales, Italy",
@@ -605,7 +616,8 @@ let questionList = [
 
     {
     "id": 48,
-    "question": "Which of these is Michael Flatley also known as?": {
+    "question": "Which of these is Michael Flatley also known as?",
+    "answer": {
         "a": "Lord of the Dance",
         "b": "Lord of the Flies",
         "c": "Lord of the Rings",
@@ -617,7 +629,8 @@ let questionList = [
 
     {
     "id": 49,
-    "question": "Typically a shamrock has how many leaves?": {
+    "question": "Typically a shamrock has how many leaves?",
+    "answer": {
         "a": "1",
         "b": "2",
         "c": "3",
@@ -629,7 +642,8 @@ let questionList = [
 
     {
     "id": 50,
-    "question": "Which currency is used in Ireland?": {
+    "question": "Which currency is used in Ireland?",
+    "answer": {
         "a": "Pound Sterling",
         "b": "Dollar",
         "c": "Euro",
@@ -641,7 +655,8 @@ let questionList = [
 
     {
     "id": 51,
-    "question": "When did the Great Famine occur?": {
+    "question": "When did the Great Famine occur?",
+    "answer": {
         "a": "1845-1852",
         "b": "1852-1859",
         "c": "1859-1867",
