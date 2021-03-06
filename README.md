@@ -14,7 +14,7 @@
 
 Hackathon Project
 ======
-## <img src="assets/images/shamrock.png"> Happy St. Patricks Day Quizz Game <img src="assets/images/shamrock.png">
+## <img src="assets/images/shamrock.png"> Happy St. Patricks Day Game Quizz<img src="assets/images/shamrock.png">
 
 By: LaiMo, Nicola, Simon, Sue, SuzyBee, Tobi, Marina, March 2021<br>
 This Project is an Team Event Project organized by [Code Institute](https://www.codeinstitute.net/).
@@ -22,8 +22,8 @@ This Project is an Team Event Project organized by [Code Institute](https://www.
 Project description
 ======
 
-This Project has the theme St. Patricks Day.
-We desided to build a simple fun Multiple Choice Game about St. Patricks Day and Ireland.
+This Project has the theme St. Patrick's Day.
+We decided to build a simple fun Multiple Choice Game about St. Patricks Day and Ireland.
 
 Screenshot
 ======
@@ -34,54 +34,64 @@ All screenshots created using [Am I responsive](http://ami.responsivedesign.is/)
 
 Live Project
 ======
-[View the live project here]()
+[View the live project here](https://NicolaLampis.github.io/hackathon_ci/)
 
 ## Contents ##
 ​
-- [Contents](#contents)
-- [UX (User Experience)](#ux-user-experience)
-  - [Project Goals](#project-goals)
-  - [User Goals](#user-goals)
-  - [User Stories](#user-stories)
-  - [Site Owner Goals](#site-owner-goals)
-- [Design Choices](#design-choices)
-  - [Fonts](#fonts)
-  - [Colours](#colours)
-  - [Imagery](#imagery)
-  - [Wireframes](#wireframes)    
-- [Technologies](#technologies)
-  - [Languages](#languages)
-  - [Libraries](#libraries)
-  - [Tools](#tools)
-- [Features](#features)
-  - [Features Implemented](#features-implemented)
-  - [Responsive Design](#responsive-design)
-  - [Interactive Elements](#interactive-elements)
-  - [Future Features](#future-features)
-  - [Site Construction](#site-construction)
-  - [Page Layout](#page-layout)
-  - [Construction Table](#construction-table)
-  - [Clock](#clock)
-  - [Drawing the Clock Hands](#drawing-the-clock-hands)
-  - [Clock Face Text](#clock-face-text)
-  - [Alarm](#alarm)
-- [Project Management](#project-management)
-- [Version Control](#version-control)
-    - [Gitpod Workspaces](#gitpod-workspaces)
-    - [Branches](#branches)
-    - [Working within a branch](#working-within-a-branch)
-    - [Merging branches in GitHub](#merging-branches-in-github)
-    - [Update Gitpod with the latest GitHub commits](#update-gitpod-with-the-latest-github-commits)
-- [Testing](#testing)
-- [Bugs](#bugs)
-- [Deployment](#deployment)
-  - [Running Locally](#running-locally)
-- [Credits](#credits)
-  - [Images](#images)
-  - [Colour](#colour)
-  - [Audio](#audio)
-  - [Inspiration](#inspiration)
-  - [Acknowledgements](#acknowledgements)
+- [Hackathon Project](#hackathon-project)
+  - [<img src="assets/images/shamrock.png"> Happy St. Patricks Day Game Quizz<img src="assets/images/shamrock.png">](#-happy-st-patricks-day-game-quizz)
+- [Project description](#project-description)
+- [Screenshot](#screenshot)
+- [Live Project](#live-project)
+  - [Contents](#contents)
+  - [​](#)
+  - [UX (User Experience)](#ux-user-experience)
+    - [Project Goals](#project-goals)
+    - [User Goals](#user-goals)
+    - [User Stories](#user-stories)
+    - [Site Owner Goals](#site-owner-goals)
+  - [​](#-1)
+  - [Design Choices](#design-choices)
+    - [Fonts](#fonts)
+    - [Colours](#colours)
+    - [Imagery](#imagery)
+    - [Wireframes](#wireframes)
+  - [Technologies](#technologies)
+    - [Languages](#languages)
+    - [Libraries](#libraries)
+    - [Tools](#tools)
+  - [Features](#features)
+    - [Features Implemented](#features-implemented)
+    - [Responsive Design](#responsive-design)
+    - [Interactive Elements](#interactive-elements)
+    - [Future Features](#future-features)
+    - [Site Construction](#site-construction)
+    - [Page Layout](#page-layout)
+    - [Construction Table](#construction-table)
+  - [​](#-2)
+  - [Project Management](#project-management)
+  - [​](#-3)
+  - [Version Control](#version-control)
+      - [**Gitpod Workspaces**](#gitpod-workspaces)
+      - [**Branches**](#branches)
+      - [**Working within a branch**](#working-within-a-branch)
+      - [**Merging branches in GitHub**](#merging-branches-in-github)
+      - [**Update Gitpod with the latest GitHub commits**](#update-gitpod-with-the-latest-github-commits)
+      - [**Pull Requests**](#pull-requests)
+  - [​](#-4)
+  - [Testing](#testing)
+  - [​](#-5)
+  - [Bugs](#bugs)
+  - [Deployment](#deployment)
+    - [Running Locally](#running-locally)
+  - [​](#-6)
+  - [Credits](#credits)
+    - [Images](#images)
+    - [Colour](#colour)
+    - [Audio](#audio)
+    - [Inspiration](#inspiration)
+    - [Acknowledgements](#acknowledgements)
+  - [​](#-7)
 ​
 ​
 ---
@@ -135,15 +145,19 @@ We chose for the website the Irish and St. Patricks Day colours.<br>
 ​
 ​
 ​
-![Colour palette](wireframes/coolors-palette2-sm.png)
+![Colour palette](assets/images/coolors-palette-sm.png)
 ​
-- *Colour Name* (Hex Code) - Colour Description
-- *Colour Name* (Hex Code) - Colour Description
-- *Colour Name* (Hex Code) - Colour Description
-- *Colour Name* (Hex Code) - Colour Description
-​
-​
-These colours will compliment each other well and ...
+- *Rich Black FOGRA 39* (#010800) - Black
+- *Kombu Green* (#273301) - Dark olive green
+- *Dark Spring Green* (#157347) - Dark green
+- *Avocado* (#5A7502) - Avocado Green
+- *Moss Green* (#879E46) - Light Green
+- *Green Pigment* (#009B4B) - Bright Green
+- *White* (#FFFFFF) - White
+- *Heat Wave* (#FF7900) - Bright Orange
+
+
+These colours will compliment each other well and provide the user with a distinct, recognisable  colour scheme commonly identified with St. Patrick's Day celebrations.
 
 ### Imagery ###
 ​
@@ -153,7 +167,7 @@ The Hero image is the irish flag in a banner desing.
 ### Wireframes ###
 ​
 paint. net was used to create the wireframes during the design process.
-[View the wireframes here.](assets/images/paddy-day-quizz.jpg)
+[View the wireframes here.](wireframes/paddy-day-quiz.jpg)
 
 ​---  
 ​
@@ -197,8 +211,6 @@ paint. net was used to create the wireframes during the design process.
   - Used for the website fonts.
 - [Coolors](https://coolors.co/)
   - An online tool used to choose the website colour scheme.
-- [Favicons](https://favicon.io/)
-  - Used to generate a favicon for the website title.
 - [Am I Responsive?](http://ami.responsivedesign.is/)
   - A tool for taking a quick snapshot of the responsive breakpoints of the website to visualize how the site will look on different device screen sizes in one place. The resulting screenshot is also used as the README.md logo image.
 - [What is my Screen Resolution](http://whatismyscreenresolution.net/)
@@ -246,11 +258,6 @@ paint. net was used to create the wireframes during the design process.
 ​
 ### Page Layout ###
 - Body
-  - HTML canvas element with a height and width of 500px where the clock face background image and clock hands are drawn.
-  - Alarm enabled / disabled icon is used as a visual indicator to show the alarm is either active or inactive.
-  - A Bootstrap accordion single card that expands to reveal the alarm clock settings with selectors for alarm hours minutes and an alarm set / clear button.
-  
-    ![Clock face, bell icon and alarm settings](assets/img/readme-features-page-layout.png)
 ​
 ​
 ### Construction Table ###
@@ -258,8 +265,7 @@ paint. net was used to create the wireframes during the design process.
 ​
 | Site Page | Page Section | JavaScript File |
 | :---: | --- | :---: |
-| Home | <Element> | JS Filename |
-| Home | <Element> | JS Filename |
+| Home | <Element> | script.js |
 ​
 ​
 ​
@@ -301,8 +307,18 @@ Markdown syntax is used to create **"To-Do" list** style checkboxes by adding `-
 ---
 ​
 ## Version Control ##
-**Version control** for this repository is managed within **GitHub** and **Gitpod** using separate [branches](project GitHub repo URL/branches)  used to work on specific aspects of the project.
-The following describes the repository branch structure:
+**Version control** for this repository is managed within **GitHub** and **Gitpod** using separate forked repositories for each team member.
+
+Each member synchronised their own GitHub repositories by adding an additional remote  named `upstream` linked to the team's main [GitHub Repository](https://github.com/NicolaLampis/hackathon_ci) by entering the following steps Git commands:
+
+```
+git remote add upstream https://github.com/NicolaLampis/hackathon_ci.git
+git fetch upstream
+git merge upstream/master
+git push
+```
+
+The following describes a typical Team Member's forked repository branch structure:
 - **Master** - this is the default branch and the source for the repository deployment.
     - **Documentation** - this branch is used for updating the README.md and testing.md documentation only.
     - **Development** - this branch is used as the main working branch for the website development
@@ -311,38 +327,51 @@ The following describes the repository branch structure:
 The following workflow steps are used to create and update branches within Gitpod and to push changes back to GitHub.
 ​
 ​
-#### Gitpod Workspaces ####
+#### **Gitpod Workspaces** ####
 1. Open **Gitpod** from **Github** using the Gitpod button. This needs to only be done **once** at the start of the project.
 2. Start the Gitpod Workspace which opens an **online IDE editor** window.
 ​
 ​
-#### Branches ####
+#### **Branches** ####
 3. For changes to be made to any **documentation files**, the git command `git checkout documentation` is used to checkout and switch to the **documentation branch**.
 4. For changes to be made to **other files** under normal site development, the git command `git checkout development` is used to checkout and switch to the **development branch**.
 5. To create a **new branch** for bug fixes, use the git command `git checkout -b <branch-name>` to **create and switch** to the new branch.
 ​
 ​
-#### Working within a branch ####
+#### **Working within a branch** ####
 6. **New** or **modified** files are **staged** using the `git add .` command
 7. The changes are **committed** using `git commit -m "<commit message>"` command.
 8. If the changes are in a newly created branch, the **committed** changes are **pushed** from Gitpod to GitHub using the `git push --set-upstream origin <branch-name>` command as there is currently no upstream branch in the remote repository.
 9. For branches that have already been synchronized, the **committed** changes are **pushed** from Gitpod to GitHub using the `git push` command.
 ​
 ​
-#### Merging branches in GitHub ####
+#### **Merging branches in GitHub** ####
 10. Opening the repository in Github, a new **pull request** is created for the updated branch and assigned to its related **Development**, **Development - JavaScript** or **Bug Fixes** project.
 11. The changes are **reviewed** to ensure there are **no conflicts** between the **updated branch** and the **Master branch**.
 12. The changes are then **merged** into the **Master branch** and the merge request is **closed**. The **Project entry** is **automatically** moved to the **Done** card.
 ​
 ​
-#### Update Gitpod with the latest GitHub commits ####
+#### **Update Gitpod with the latest GitHub commits** ####
 13. To update Gitpod with the **latest commits** From GitHub, the `git checkout master` command is used to checkout and switch to the master branch.
 14. Use the `git pull` command to update the master branch and **reset the pointer**.
 15. Now **switch** to the **other branches** in Gitpod using the `git checkout <branch-name>` command and use the `git merge origin/master` command to **update each branch in turn**.
 16. Use the `git push` on **each branch** to update the relevant GiHub Branches to the **same commit** as the **Master branch**.
 17. **Repeat steps 3 - 17 regularly** to ensure updates are **saved** and **correctly version controlled** in GitHub.
+    
+#### **Pull Requests** ####
+
+18. To update the upstream remote repository, each Team Member creates a pull request from the their forked master branch (`origin/master`) to the upstream Team repository (`upstream/master`)
+19. The pull request is reviewed and any merge conflicts are resolved before merging into the upstream master branch.
+20. Team Members must then fetch the latest commits again to their forked repositories using the following Git commands:
+
+```
+git fetch upstream
+git merge upstream/master
+git push
+```
 ​
 ---
+
 ## Testing ##
 ​
 - Testing information can be found in a separate [testing.md](testing.md) file.
@@ -350,14 +379,17 @@ The following workflow steps are used to create and update branches within Gitpo
 ---
 ## Bugs ##
 ​
-To manage bugs and issues tracking, the default GitHub [bug_report.md template](project GitHub repo URL/projects/blob/master/.github/ISSUE_TEMPLATE/bug_report.md) has been created and activated within the repository settings Features > Issues section.
-All new bugs and issues are tracked within the GitHub repository [Issues section](project GitHub repo URL/issues) .
-Open issues are managed within the [GitHub Projects section](project GitHub repo URL/projects/projects)
+
+To manage bugs and issues tracking, the default GitHub [bug_report.md template](https://github.com/NicolaLampis/hackathon_ci/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)) has been created and activated within the repository settings Features > Issues section.
+All new bugs and issues are tracked within the GitHub repository [Issues section](https://github.com/NicolaLampis/hackathon_ci/issues) .
+Open issues are managed within the [GitHub Projects section]([project GitHub repo URL/projects/projects](https://github.com/NicolaLampis/hackathon_ci/projects/1).
+
 ​
 Each branch is then **merged** into the **master branch** using a **pull request** that is **linked** to the **open issue**. Once merged, and the bug report **closed**, the branch is **deleted**.
 ​
-Fixed bugs and issues are marked as [closed](<GitHub Repo>/<Repo Name>/issues?q=is%3Aissue+is%3Aclosed).
+Fixed bugs and issues are marked as [closed](https://github.com/NicolaLampis/hackathon_ci/issues?q=is%3Aissue+is%3Aclosed).
 ​
+
 ---
 ​
 ## Deployment ##
@@ -367,12 +399,12 @@ The website was developed using both *Gitpod* and *Visual Studio Code* and using
 - Opened up **GitHub** in the browser.
 - Signed in with my **username** and **password**.
 - Selected my **repositories**.
-- Navigated to **simonjvardy/alarm-clock**.
+- Navigated to **NicolaLampis/hackathon_ci**.
 - In the top navigation clicked **settings**.
 - Scrolled down to the **GitHub Pages** area.
 - Selected **Master Branch** from the **Source** dropdown menu.
 - Clicked to **confirm** my **selection**.
-- [<GitHub Repo Name>](GitHub Repo URL) is now **live** on **GitHub Pages**.
+- [Steal the Gold](https://NicolaLampis.github.io/hackathon_ci/) is now **live** on **GitHub Pages**.
 ​
 ### Running Locally ###
 ​
@@ -386,7 +418,9 @@ Cloning alarm-clock from GitHub:
 ​
 Copy the following code and input it into your terminal to clone alarm-clock:
 ​
-```git clone <project GitHub repo URL>.git```
+```
+gh repo clone NicolaLampis/hackathon_ci
+```
 ​
 ---
 ​
@@ -397,7 +431,7 @@ Copy the following code and input it into your terminal to clone alarm-clock:
 The background image, the irish banner and the Shamrock image are from the website [pixabay](https://pixabay.com/de/images/search/irisch/).
 ​
 - Homepage
-  - <Image Creadit>
+  - <Image Credit>
 ​
 ​
 ### Colour ###
