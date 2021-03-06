@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="">
+    <meta name="description" content="St. Patrick's theme quiz game">
     <meta name="author" content="Team-18">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,10 +18,10 @@
 <body>
     <!-- Header Section -->
     <header>
-        <div class="container">
+        <div class="container-fluid main-background">
             <div class="row">
-                <div class="col-12 center">
-                        <img id="leprechaun" src="assets/images/irish-banner.png" alt="Irish Flagg Banner">                    
+                <div class="col-12 center mt-4">
+                        <img id="leprechaun" src="assets/images/leprechaun.png" alt="Irish Flagg Banner">                    
                 </div>
                 <div class="row">
                     <div class="col-12 text-center mt-5">
@@ -48,11 +48,11 @@
                 </div>    
                 <div class="col-sm-12 text-center my-2">
                     <h2>Gold Coins: </h2>
-                    <img src="" alt="">
+                    <img id="pot-gold" src="assets/images/gold-pot.png" alt="pot of gold">
                 </div>
             </div>
 
-            <div class="col-12 text-center">
+            <div class="col-12 text-center mb-4">
                 <a href="index.html"><button id="back-btn" type="button" class="btn btn-success my-2"><h5>Quit Game</h5></button></a>
                 <a href="index.html"><button id="restart" type="button" class="btn btn-success my-2"><h5>New Game</h5></button></a>
 
@@ -69,13 +69,45 @@
     <main>
 
     </main>
-    <!-- /Main Section -->
 
-    <!-- Footer Section -->
-    <footer>
 
-    </footer>
-    <!-- /Footer Section -->
+    <!-- TOAST win -->
+      <div class="toast hide position-absolute top-50 start-50 translate-middle align-items-center text-white bg-success border-0"
+        id="toastWin"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true">
+        <div class="toast-body m-2">
+          <h4>Great,</h4>assertive         <h3>YOU WIN !</h3>
+          <br />
+          <h4>Click the <strong>reset </strong>button to start the game</h4>
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white m-2 position-absolute top-0 end-0"
+          data-bs-dismiss="toast"
+          aria-label="Close">
+        </button>
+      </div>
+      <!-- TOAST lose -->
+      <div class="toast hide position-absolute top-50 start-50 translate-middle align-items-center text-white bg-danger border-0"
+        id="toastLose"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true">
+        <div class="toast-body m-2">
+          <h4>Too bad,</h4>
+          <h3>YOU LOSE !</h3>
+          <br />
+          <h4>Click the <strong>New Game </strong>button to start the game</h4>
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white m-2 position-absolute top-0 end-0"
+          data-bs-dismiss="toast"
+          aria-label="Close">
+        </button>
+      </div>
 
     <!-- Scripts-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
