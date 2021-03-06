@@ -40,7 +40,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3 
+h6 {
     font-family: 'Lobster', cursive, sans-serif;    
 }
 
@@ -88,24 +89,25 @@ h3 {
     max-width: 200px;
 }
 
-<<<<<<< HEAD
 }
+
+footer {        
+        background-color: black;
+        color: white;
+        text-align: center;
+}
+
 .social-media {
-    background-color: black;
     text-align: center;
-    text-decoration: none;
-    height: 160%;
-}
-
-
-.social-media i {
-    margin: 1%;
-    padding: 10%;
-    color: white;  
 }
 
 .social-media li {
-    display: inline-block;    
-=======
->>>>>>> upstream/master
+    display: inline;
+}
+
+.social-media i{
+    font-size: 100%;
+    margin: 1%;
+    padding: 1%;
+    color: white;
 }
