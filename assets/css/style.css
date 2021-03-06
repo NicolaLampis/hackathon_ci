@@ -12,9 +12,14 @@
 }
 
 .paddy-day-header {
-    font-size: 40px;
+    font-size: 3.75rem;
+    margin-bottom: 40px;
 }
 
+.gold-header {
+    font-size: 3.75rem;
+    margin-bottom: 20px;
+}
 /* -------------------------------------Navbar */
 
 
@@ -85,3 +90,24 @@ h3 {
 
 }
 
+footer {        
+        background-color: black;
+        color: white;
+        text-align: center;
+        
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media li {
+        display: inline;
+}
+
+.social-media i {
+    font-size: 100%;
+    margin: 0%;
+    padding: 1%;
+    color: white;
+}
