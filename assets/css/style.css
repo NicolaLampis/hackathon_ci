@@ -54,20 +54,14 @@ h3 {
     height: 80px;
 }
 
-.correctAnswer {
+.correctAnswer:disabled {
     background-color: aqua;
+    opacity: unset;
 }
 
-.wrongAnswer {
+.wrongAnswer:disabled {
     background-color: tomato;
-}
-
-.correctAnswer {
-    background-color: aqua;
-}
-
-.wrongAnswer {
-    background-color: tomato;
+    opacity: unset;
 }
 
 /* -------------------------------------Animations */
