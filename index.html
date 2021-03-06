@@ -3,58 +3,64 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="A Quiz for St. Patrick's Day to steal the gold of the leprechaun">
+    <meta name="description" content="St. Patrick's theme quiz game">
     <meta name="author" content="Team-18">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="64x64" href="assets/images/clover_favicon.jpg" />
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/images/clover_favicon.jpg"/>
     <!-- CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>Happy St. Patrick's Day Quiz | Steal the Gold</title>
+    <title>Document</title>
 </head>
 
-<body>    
+<body>
     <!-- Header Section -->
     <header>
-        
-        <div class="container h-100">
+        <div class="container-fluid main-background">
             <div class="row">
-                <div class="col-12 center">
-                    <img id="banner" src="assets/images/irish-banner.png" alt="Irish Flagg Banner">
+                <div class="col-12 center mt-4">
+                        <img id="leprechaun" src="assets/images/leprechaun.png" alt="Irish Flagg Banner">                    
                 </div>
-                <div class="jumbotron shadow-lg  rounded">
-
-                    <div class="row">
-                        <div class="col-12 text-center ">
-                            <h1 class="paddy-day-header">
-                                Happy<br> 
-                                St. Patrick's Day
-                            </h1>
-                            <h4 class="my-5">
-                                The leprechaun has fallen asleep so let's try to steal his gold!<br>
-                                For each question you get right you steal one gold piece.
-                            </h4>
-                            <h4>
-                                Click start to begin
-                            </h4>
-                        </div>
-
-                        <div class="col-12 text-center my-3">
-                            <a href="game.html">
-                                <button id="start" type="button" class="btn btn-success my-2">
-                                    <h4>
-                                        Start the game
-                                    </h4>
-                                </button>
-                            </a>
-                        </div>
+                <div class="row">
+                    <div class="col-12 text-center mt-5">
+                        <h2>Steal the gold</h2>                    
                     </div>
                 </div>
             </div>
+
+            <div class="row my-5 quitz-row">    
+                <div class="col-12 text-center my-2">
+                    <h2>Question</h2>
+                </div>
+                <div class="col-sm-12 col-md-6 text-center my-2">  
+                    <a href="index.html"><button type="button" class="btn btn-success my-2 btn-lg"><h5>Answer 1 lorem ipsum</h5></button></a>
+                </div>
+                <div class="col-sm-12 col-md-6 text-center my-2">
+                    <a href="index.html"><button type="button" class="btn btn-success my-2 btn-lg"><h5>Answer 2 lorem ipsum</h5></button></a>
+                </div>
+                <div class="col-sm-12 col-md-6 text-center my-2">                    
+                    <a href="index.html"><button type="button" class="btn btn-success my-2 btn-lg"><h5>Answer 3 lorem ipsum</h5></button></a>
+                </div>
+                <div class="col-sm-12 col-md-6 text-center my-2">
+                    <a href="index.html"><button type="button" class="btn btn-success my-2 btn-lg"><h5>Answer 4 lorem ipsum</h5></button></a>
+                </div>    
+                <div class="col-sm-12 text-center my-2">
+                    <h2>Gold Coins: </h2>
+                    <img id="pot-gold" src="assets/images/gold-pot.png" alt="pot of gold">
+                </div>
+            </div>
+
+            <div class="col-12 text-center mb-4">
+                <a href="index.html"><button id="back-btn" type="button" class="btn btn-success my-2"><h5>Quit Game</h5></button></a>
+                <a href="index.html"><button id="restart" type="button" class="btn btn-success my-2"><h5>New Game</h5></button></a>
+
+            </div>
+
+
         </div>
+       
         
     </header>
     <!-- /Header Section -->
@@ -63,18 +69,48 @@
     <main>
 
     </main>
-    <!-- /Main Section -->
 
-    <!-- Footer Section -->
-    <footer>
 
-    </footer>
-    <!-- /Footer Section -->
+    <!-- TOAST win -->
+      <div class="toast hide position-absolute top-50 start-50 translate-middle align-items-center text-white bg-success border-0"
+        id="toastWin"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true">
+        <div class="toast-body m-2">
+          <h4>Great,</h4>assertive         <h3>YOU WIN !</h3>
+          <br />
+          <h4>Click the <strong>reset </strong>button to start the game</h4>
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white m-2 position-absolute top-0 end-0"
+          data-bs-dismiss="toast"
+          aria-label="Close">
+        </button>
+      </div>
+      <!-- TOAST lose -->
+      <div class="toast hide position-absolute top-50 start-50 translate-middle align-items-center text-white bg-danger border-0"
+        id="toastLose"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true">
+        <div class="toast-body m-2">
+          <h4>Too bad,</h4>
+          <h3>YOU LOSE !</h3>
+          <br />
+          <h4>Click the <strong>New Game </strong>button to start the game</h4>
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white m-2 position-absolute top-0 end-0"
+          data-bs-dismiss="toast"
+          aria-label="Close">
+        </button>
+      </div>
 
     <!-- Scripts-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <!-- /Scripts  -->
 </body>
 
