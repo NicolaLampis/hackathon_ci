@@ -64,6 +64,7 @@ let questionList = [
     "url": "placeholder"
 },
 
+
     {
     "id": 6,
     "question": "Which US city dyes its river green on St Patrick's Day?",
@@ -103,6 +104,7 @@ let questionList = [
     "correct": "c",
     "url": "placeholder"
 },
+
 
     {
     "id": 9,
@@ -316,7 +318,7 @@ let questionList = [
     {
     "id": 25,
     "question": "When was Trinity College founded?",
-    "answers" {
+    "answers": {
         "a": "1552",
         "b": "1569",
         "c": "1592",
@@ -498,8 +500,8 @@ let questionList = [
     {
     "id": 39,
     "question": "Which is the longest river in the British Isles?",
-    "answers":
-     {
+    "answers": {
+
         "a": "River Shannon",
         "b": "River Suir",
         "c": "River Liffey",
@@ -524,7 +526,7 @@ let questionList = [
 
     {
     "id": 41,
-    "question": "Greater Dublin is the birthplace of three winners of the Nobel Prize for Literature. Which of these authors didn't receive one?", 
+    "question": "Greater Dublin is the birthplace of three winners of the Nobel Prize for Literature. Which of these authors didn't receive one?",
     "answers": {
         "a": "Oscar Wilde",
         "b": "Samuel Beckett",
@@ -537,7 +539,7 @@ let questionList = [
 
     {
     "id": 42,
-    "question": "Which Irish baker invented both the fig roll and the cream cracker?", 
+    "question": "Which Irish baker invented both the fig roll and the cream cracker?",
     "answers": {
         "a": "WR Jacobs",
         "b": "May Graham",
@@ -563,7 +565,7 @@ let questionList = [
 
     {
     "id": 44,
-    "question": "How many men were employed to build the Titanic (approx.)?", 
+    "question": "How many men were employed to build the Titanic (approx.)?",
     "answers": {
         "a": "10,000",
         "b": "14,000",
@@ -590,7 +592,7 @@ let questionList = [
 
     {
     "id": 46,
-    "question": "Which Irish airport in 1947 became the first in the World to open a duty-free shop?", 
+    "question": "Which Irish airport in 1947 became the first in the World to open a duty-free shop?",
     "answers": {
         "a": "Dublin",
         "b": "Shannon",
@@ -603,7 +605,7 @@ let questionList = [
 
     {
     "id": 47,
-    "question": "Which of these countries compete in the Guinness Six Nations Championship?", 
+    "question": "Which of these countries compete in the Guinness Six Nations Championship?",
     "answers": {
         "a": "Ireland, Scotland, Germany, France, Wales, Italy",
         "b": "Ireland, Scotland, England, France, Wales, Spain",
@@ -617,7 +619,7 @@ let questionList = [
 
     {
     "id": 48,
-    "question": "Which of these is Michael Flatley also known as?", 
+    "question": "Which of these is Michael Flatley also known as?",
     "answers": {
         "a": "Lord of the Dance",
         "b": "Lord of the Flies",
@@ -630,7 +632,7 @@ let questionList = [
 
     {
     "id": 49,
-    "question": "Typically a shamrock has how many leaves?", 
+    "question": "Typically a shamrock has how many leaves?",
     "answers": {
         "a": "1",
         "b": "2",
@@ -643,7 +645,7 @@ let questionList = [
 
     {
     "id": 50,
-    "question": "Which currency is used in Ireland?", 
+    "question": "Which currency is used in Ireland?",
     "answers": {
         "a": "Pound Sterling",
         "b": "Dollar",
@@ -656,7 +658,7 @@ let questionList = [
 
     {
     "id": 51,
-    "question": "When did the Great Famine occur?", 
+    "question": "When did the Great Famine occur?",
     "answers": {
         "a": "1845-1852",
         "b": "1852-1859",
@@ -707,29 +709,28 @@ let questionList = [
     "url": "placeholder"
 }
 ];
-import 
+
 const game = (function () {
     const gameLength = 10;
     let givenAnswers = 0;
     let correctAnswers = 0;
     let questionsAsked = [];
 
-    /**
-     * Call with new game button, resets vars for new game
-     */
-    function newGame() {
-        givenAnswers = 0;
-        correctAnswers = 0;
-        questionsAsked = [];
-    }
-
     return {
+        /**
+         * Call with new game button, resets vars for new game
+         */
+        newGame: function () {
+            givenAnswers = 0;
+            correctAnswers = 0;
+            questionsAsked = [];
+        },
 
         /**
          * Monitor game status
          * @returns {[number, number]}
          */
-        status: function() {
+        status: function () {
             return [givenAnswers, correctAnswers];
         },
 
@@ -739,15 +740,17 @@ const game = (function () {
          * @param {char} givenAnswer a | b | c | d
          * @returns {string} correctAnswer a | b | c | d
          */
-        answer: function(questionId, givenAnswer) {
-            givenAnswers++;
+        answer: function (questionId, givenAnswer) {
+            givenAnswers += 1;
             questionsAsked.push(questionId);
 
             const question = questionList.find(d => d.id === questionId);
 
             if (givenAnswer === question.correct) {
-                correctAnswers++;
+                correctAnswers += 1;
             }
+
+            console.log(givenAnswer + " : " + correctAnswers); // DEBUG PURPOSES
 
             return question.correct;
         },
@@ -758,7 +761,7 @@ const game = (function () {
          * if game is going => new question asked
          * @returns {(number|*|string|{a: string, b: string, c: string, d: string}|{a: string, b: string, c: string, d: string})[]|number}
          */
-        provideQuestion: function() {
+        provideQuestion: function () {
             if (givenAnswers === gameLength) {
                 return correctAnswers;
             } else {
@@ -771,16 +774,16 @@ const game = (function () {
                  * Using Math.round() will give you a non-uniform distribution!
                  * Reference: https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range/1527820#1527820
                  */
-                const getRandomInt = function(min, max) {
+                const getRandomInt = function (min, max) {
                     min = Math.ceil(min);
                     max = Math.floor(max);
                     return Math.floor(Math.random() * (max - min + 1)) + min;
                 };
 
-                let randomInt = getRandomInt(1,questionList.length);
+                let randomInt = getRandomInt(1, questionList.length);
 
                 while (questionsAsked.includes(randomInt)) {
-                    randomInt = getRandomInt(1,questionList.length);
+                    randomInt = getRandomInt(1, questionList.length);
                 }
 
                 const question = questionList.find(d => d.id === randomInt);
@@ -789,4 +792,102 @@ const game = (function () {
             }
         }
     };
+})()
+
+const pageHandler = (function () {
+
+    const questionElement = document.getElementsByClassName("question")[0];
+    const answersElements = document.getElementsByClassName("answer");
+    const correctAnswersElement = document.getElementById("gold");
+
+    return {
+        firstLoad: function() {
+            document.getElementById("restart").addEventListener("click", () => {
+                /**
+                 * Quick and dirty approach to not run into the "give answer" timeout; maybe ad a "next question" button instead of
+                 * that one?
+                 */
+                setTimeout(function () {
+                    game.newGame();
+                    pageHandler.newQuestion();
+                });
+            });
+
+            for (let i = 0; i < answersElements.length; i++) {
+                answersElements[i].addEventListener("click", () => {
+                    pageHandler.giveAnswer(questionElement.value, answersElements[i].value)
+                })
+            };
+
+            pageHandler.newQuestion();
+        },
+
+        /**
+         * Remove CSS classes correct/wrong answer, sets new HTML text and values
+         */
+        newQuestion: function () {
+            const questionData = game.provideQuestion();
+
+            if (typeof(questionData) === "number") {
+
+                if (questionData <= 4) { $("#toastLose").toast("show");}
+                if (questionData > 4 && questionData <= 8) { $("#toastMiddle").toast("show");}
+                else { $("#toastWin").toast("show"); }
+
+            } else {
+
+                for (let i = 0; i < answersElements.length; i++) {
+                    answersElements[i].classList.remove("correctAnswer", "wrongAnswer");
+                }
+
+                correctAnswersElement.innerText = game.status()[1];
+                questionElement.innerText = questionData[1];
+                questionElement.value = questionData[0];
+
+                /**
+                 * Randomize array in-place using Durstenfeld shuffle algorithm
+                 * Reference: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+                 * @param array
+                 */
+                const shuffleArray = function (array) {
+                    for (let i = array.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [array[i], array[j]] = [array[j], array[i]];
+                    }
+                    return array;
+                }
+                const answersShuffled = shuffleArray(Object.entries(questionData[2]))
+
+                for (let i = 0; i < answersShuffled.length; i++) {
+                    const button = answersElements[i];
+                    button.value = answersShuffled[i][0];
+                    button.innerText = answersShuffled[i][1];
+                    button.disabled = false;
+                }
+            }
+        },
+
+        /**
+         * Provides given answer to game.answer, sets CSS classes correct/wrong Answer, calls newQuestion after timeout
+         * @param questionId
+         * @param clickedAnswer
+         */
+        giveAnswer: function (questionId, clickedAnswer) {
+            const correctAnswer = game.answer(questionId, clickedAnswer);
+
+            for (let i = 0; i < answersElements.length; i++) {
+                answersElements[i].disabled = true;
+                if (answersElements[i].value === correctAnswer) {
+                    answersElements[i].classList.add("correctAnswer");
+                } else {
+                    answersElements[i].classList.add("wrongAnswer");
+                }
+            }
+            setTimeout(function () {
+                pageHandler.newQuestion();
+            }, 2000);
+        }
+    }
 })();
+
+document.addEventListener("DOMContentLoaded", pageHandler.firstLoad);
