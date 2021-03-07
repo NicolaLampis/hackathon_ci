@@ -230,7 +230,8 @@ paint. net was used to create the wireframes during the design process.
   - An online tool to find out the screen resolution on your device used for CSS @media queries
 - [paint.net](https://www.getpaint.net/download.html)
   - paint.net is a photo and images editor program.  
-​
+​- [Favicon](https://favicon.io/)
+  - Used for icons to enhance headings and add emphasis to text.
   
 ---
 ​
