@@ -99,8 +99,14 @@ h3 {
 }
 
 #restart,
-#back-btn {
+#back-btn,
+#start {
     font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#start {
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
