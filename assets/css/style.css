@@ -37,9 +37,10 @@ body {
 }
 
 .main-background {
-    background-image: url(../images/bg-shamrock.jpg);
+    background-image: url(../images/bg-shamrockB.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     margin: 0;
     padding: 0px;
     overflow-x: hidden;
