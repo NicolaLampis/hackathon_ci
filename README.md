@@ -1,11 +1,11 @@
 <p align="center">
-  <img width="460" height="300" src="https://media3.giphy.com/media/2WHcT6O69wS3vouGVP/200w.webp?cid=ecf05e47op4whb1q8nxzntcqlbrieqyu4jkdlghps5wwthyl&rid=200w.webp">
+  <img src="assets/images/paddy-day-rme.png">
   <br>
- Hello there, We are the dream team 👋
+ Hello there, <br> We are the Mean Green Trivia Machine 👋
 </p>
 
 
-#### Let's have some fun
+#### Let's have some fun!
 - 🔭 Do you know ? 
 - 🌱 Let's green your screen 
 - 🔥 We gonna win
@@ -22,7 +22,7 @@ This Project is an Team Event Project organized by [Code Institute](https://www.
 Project description
 ======
 
-This Project has the theme St. Patrick's Day.
+This Project has the theme St. Patrick's Day.<br>
 We decided to build a simple fun Multiple Choice Game about St. Patricks Day and Ireland.
 
 Screenshot
@@ -38,8 +38,6 @@ Live Project
 
 ## Contents ##
 ​
-- [Hackathon Project](#hackathon-project)
-  - [Happy St. Patricks Day Quiz](#-happy-st-patricks-day-quiz-)
 - [Project description](#project-description)
 - [Screenshot](#screenshot)
 - [Live Project](#live-project)
@@ -99,46 +97,46 @@ Live Project
 ## UX (User Experience) ##
 ​
 ### Project Goals ###
+- To come up with a website that will help people to celebrate St Patrick’s day together, while apart.
+- We want to make effective use of course knowledge and collaborate together.
+- Make a project that works and is practical.
+- Work together as a team and ensure each team member feels included and has the opportunity to contribute what they are able and we all have fun and learn the skills necessary for collaboration.
+- Give attention to the project presentation and adhere to the theme.
+- Build something awesome that we are proud of as a team.
+​
+​
+#### The FEATURES on the website will: ####
+- Give the user a way to compete with friends and family using an Irish themed quiz game and allow them to keep up to date with our next quizzes through social media pages.
+​
 
--To come up with a website that will help people to celebrate St Patrick’s day together, while apart.
--We want to make effective use of course knowledge and collaborate together
--Make a project that works and is practical
--Work together as a team and ensure each team member feels included and has the opportunity to contribute what they are able and we all have fun and learn the skills necessary for collaboration.
--Give attention to the project presentation and adhere to the theme
--Build something awesome that we are proud of as a team.
-​
-​
-The **features** on the website will:
-​
--Give the user a way to compete with friends and family using an Irish themed quiz game and allow them to keep up to date with our next quizzes through social media pages.
-​
-I achieved this by:
--Making a fun story and game with various Irish themed questions.
--Providing social media links in the footer section of each page.
+#### I achieved this by: ####
+- Making a fun story and game with various Irish themed questions.
+- Providing social media links in the footer section of each page.
+
 
 ### User Goals ###
-​
--The user will test their knowledge on Irish culture, history and geography
--The user will learn more about Irish culture, history and geography
--The user will gain points (gold coins) and be able to compare with other users.
+
+- The user will test their knowledge on Irish culture, history and geography
+- The user will learn more about Irish culture, history and geography
+- The user will gain points (gold coins) and be able to compare with other users.
 
 ​
 ### User Stories ###
 ​
 - As a user, I want the home screen to be simple with a clear indication of what I can do and to be able to navigate it easily.
-- As a user, I want to play the game so I can compete against my friends and win the game
-- As a user, I want to see the button to Start the game and would like to see the answers as I select them and see the score increase as I progress through the game
-- As a user I would like the game to have an Irish theme
-- As a user, I want to see social media links in the footer
-- as a user I want to see my score at the end of the quiz
-- as a user I want to know more about St Patrick, so that i have a better knowledge about it
-- as a user i want to see my progress, how many questions are left and how many i already answered
-- as a user i want to give an answer and have feedback whether it is correct or not
+- As a user, I want to play the game so I can compete against my friends and win the game.
+- As a user, I want to see the button to Start the game and would like to see the answers as I select them and see the score increase as I progress through the game.
+- As a user I would like the game to have an Irish theme.
+- As a user, I want to see social media links in the footer.
+- as a user I want to see my score at the end of the quiz.
+- as a user I want to know more about St Patrick, so that i have a better knowledge about it.
+- as a user i want to see my progress, how many questions are left and how many i already answered.
+- as a user i want to give an answer and have feedback whether it is correct or not.
 ​
 ### Site Owner Goals ###
 ​
--As a site owner, I want to create an interactive website to present a clean, easy to understand display of information.
--As a site owner, I want the user to see the social media links in the footer so they know how to interact with us. 
+- As a site owner, I want to create an interactive website to present a clean, easy to understand display of information.
+- As a site owner, I want the user to see the social media links in the footer so they know how to interact with us. 
 ​
 ​
 --- 
@@ -151,7 +149,7 @@ We chose the [Lobster](https://fonts.google.com/specimen/Lobster?preview.text_ty
 ​
 ### Colours ###
 ​
-We chose for the website the Irish and St. Patricks Day colours.<br>
+We chose for the website the Irish and St. Patrick's Day colours.<br>
 ​
 ​
 ​
