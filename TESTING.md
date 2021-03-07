@@ -42,15 +42,26 @@ The following **validation services** and **linters** were used to check the val
 
 - [Chrome DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse)
   - An open-source automated tool for improving webpages by running audits for performance, accessibility, progressive web apps, SEO etc.
-
+    - The metrics scores and the perf score are colored according to the range green (90 to 100), that means “Good” score.
+        - Performance. 100%
+            The following changes improved the performance of the webapp.
+            Order of the <script> : jQuery, bootstrap, script.js
+            Resize the images improving the loading speed.
+        - Accessibility. 98%
+            Flags, provide links with descriptive text.
+        - SEO. 100%
+            Add a media description provide a brief summary of a web page and help the search engine.
+        - Best Practice 100%
 
   - **Desktop Performance Report**
     
-    ![Google Lighthouse - Desktop](assets/images/<image-filename>.png)
+    [Google Lighthouse - First Report Desktop](assets/images/s-one.png)
+    
+    ![Google Lighthouse - Improvement on Desktop](assets/images/s-two.png)
 
   - **Mobile Performance Report**
 
-    ![Google Lighthouse - Mobile](assets/images/<image-filename>.png)
+    ![Google Lighthouse - Mobile](assets/images/s-mobile.png)
 
 
 - [JSHint (version 2.12.0)](https://jshint.com/)
