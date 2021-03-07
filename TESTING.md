@@ -55,12 +55,12 @@ The following **validation services** and **linters** were used to check the val
 
   - **Desktop Performance Report**
     
-    ![Google Lighthouse - First Report Desktop](assets/images/s-one.png)
-    ![Google Lighthouse - Improvement on Desktop](assets/images/s-two.png)
+    [Google Lighthouse - First Report Desktop](assets/images/s-one.png)
+    [Google Lighthouse - Improvement on Desktop](assets/images/s-two.png)
 
   - **Mobile Performance Report**
 
-    ![Google Lighthouse - Mobile](assets/images/s-mobile.png)
+    [Google Lighthouse - Mobile](assets/images/s-mobile.png)
 
 
 - [JSHint (version 2.12.0)](https://jshint.com/)
