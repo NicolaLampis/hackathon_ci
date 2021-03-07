@@ -69,11 +69,11 @@ h3 {
     margin-right: auto;
     
 }
-.tn btn-success my-2{
-    text-align: center;
-    padding: 0px;
-    margin-left: auto;
-    margin-right: auto;
+.btn-success {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+    font-size: larger;
 }
 
 
