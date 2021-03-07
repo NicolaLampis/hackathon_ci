@@ -709,7 +709,7 @@ let questionList = [
     "url": "placeholder"
 }
 ];
-import 
+
 const game = (function () {
     const gameLength = 10;
     let givenAnswers = 0;
@@ -830,7 +830,9 @@ const pageHandler = (function () {
 
             if (typeof(questionData) === "number") {
 
-                $("#toastWin").toast("show");
+                if (questionData <= 4) { $("#toastLose").toast("show");}
+                if (questionData > 4 && questionData <= 8) { $("#toastMiddle").toast("show");}
+                else { $("#toastWin").toast("show"); }
 
             } else {
 

@@ -84,13 +84,31 @@
 
 
     <!-- TOAST win -->
-      <div class="toast hide position-absolute top-50 start-50 translate-middle align-items-center text-white bg-success border-0"
+      <div class="toast hide position-absolute top-50 start-50 translate-middle align-items-center text-dark bg-warning border-0"
         id="toastWin"
         role="alert"
         aria-live="assertive"
         aria-atomic="true">
         <div class="toast-body m-2">
-          <h4>Great,</h4><h3>You won the Leprechaun's gold!</h3>
+          <h2>You have the luck of the Irish! Well done!</h2>
+          <br />
+          <h5>Click the <strong>New Game </strong>button to start the game</h5>
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-black m-2 position-absolute top-0 end-0"
+          data-bs-dismiss="toast"
+          aria-label="Close">
+        </button>
+      </div>
+      <!-- TOAST middle -->
+      <div class="toast hide position-absolute top-50 start-50 translate-middle align-items-center text-white bg-success border-0"
+        id="toastMiddle"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true">
+        <div class="toast-body m-2">
+          <h2>You got some gold! But you'd better run, the leprechaun is waking up!</h2>
           <br />
           <h5>Click the <strong>New Game </strong>button to start the game</h5>
         </div>
@@ -107,9 +125,8 @@
         role="alert"
         aria-live="assertive"
         aria-atomic="true">
-        <div class="toast-body m-2">
-          <h4>Too bad,</h4>
-          <h3>YOU LOSE !</h3>
+        <div class="toast-body m-2">          
+          <h2>Have you even heard of Ireland? The leprechaun woke up and chased you away!</h2>
           <br />
           <h4>Click the <strong>New Game </strong>button to start the game</h4>
         </div>
@@ -120,7 +137,6 @@
           aria-label="Close">
         </button>
       </div>
-
 
     <!-- Footer Section -->
 	<footer class="contaniner-fluid">
