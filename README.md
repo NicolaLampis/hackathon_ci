@@ -100,28 +100,28 @@ Live Project
 ​
 ### Project Goals ###
 
-To come up with a website that will help people to celebrate St Patrick’s day together, while apart 
-We want to make effective use of course knowledge and collaborate together
-Make a project that works and is practical
-Work together as a team and ensure each team member feels included and has the opportunity to contribute what they are able and we all have fun and learn the skills necessary for collaboration.
-Give attention to the project presentation and adhere to the theme
-Build something awesome that we are proud of as a team.
+-To come up with a website that will help people to celebrate St Patrick’s day together, while apart.
+-We want to make effective use of course knowledge and collaborate together
+-Make a project that works and is practical
+-Work together as a team and ensure each team member feels included and has the opportunity to contribute what they are able and we all have fun and learn the skills necessary for collaboration.
+-Give attention to the project presentation and adhere to the theme
+-Build something awesome that we are proud of as a team.
 ​
 ​
 The **features** on the website will:
 ​
-- Show a ...
-- Provide an ...
+-Give the user a way to compete with friends and family using an Irish themed quiz game and allow them to keep up to date with our next quizzes through social media pages.
 ​
-I achieve this by:
-​
-- Building the ...
-- Allowing the user to ...
-​
+I achieved this by:
+-Making a fun story and game with various Irish themed questions.
+-Providing social media links in the footer section of each page.
+
 ### User Goals ###
 ​
-- **Do stuff**.
-- **achieve more stuff**.
+-The user will test their knowledge on Irish culture, history and geography
+-The user will learn more about Irish culture, history and geography
+-The user will gain points (gold coins) and be able to compare with other users.
+
 ​
 ### User Stories ###
 ​
@@ -137,9 +137,8 @@ I achieve this by:
 ​
 ### Site Owner Goals ###
 ​
-- As a **site owner**, I want to create an **interactive website** to present a clean, easy to understand display of information.
-- As a **site owner**, I want the **user** to see ....
-- As a **site owner**, I want the **user** to be able to ...
+-As a site owner, I want to create an interactive website to present a clean, easy to understand display of information.
+-As a site owner, I want the user to see the social media links in the footer so they know how to interact with us. 
 ​
 ​
 --- 
