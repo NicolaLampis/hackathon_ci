@@ -31,13 +31,18 @@ body {
     color: white;   
     height: 100vh;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 .main-background {
     background-image: url(../images/bg-shamrock.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden;
     min-height: 100vh;
 }
 
@@ -127,6 +132,7 @@ footer {
 @media screen and (min-width: 991px) {
     #banner {
     width: 60%;
+    max-width: 800px;
 }
     #leprechaun {
     width: 20%;
@@ -143,8 +149,6 @@ footer {
     margin: 1.5rem!important;
     }
 }
-
-
 
 /* -------------------------------------footer */
 footer {
@@ -182,6 +186,7 @@ footer {
 
 .social-links .list-inline-item{
     margin: 0;    
+    padding: 0;
 }
 
 .copyrights {      
