@@ -691,7 +691,7 @@ let questionList = [
     "url": "placeholder"
 }
 ];
-
+import 
 const game = (function () {
     const gameLength = 10;
     let givenAnswers = 0;
