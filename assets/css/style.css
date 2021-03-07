@@ -13,12 +13,15 @@
 
 .paddy-day-header {
     font-size: 3.75rem;
-    margin-bottom: 40px;
+    margin: 0;
 }
 
-.gold-header {
-    font-size: 3.75rem;
-    margin-bottom: 20px;
+.question-part {
+    margin: 30px 0;    
+}
+
+button h4 {
+    text-transform: uppercase;
 }
 /* -------------------------------------Navbar */
 
@@ -31,7 +34,7 @@ body {
 }
 
 .main-background {
-    background-image: url(../images/background-clover3.png); 
+    background-image: url(../images/bg-shamrock.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -40,7 +43,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3
+h6 {
     font-family: 'Lobster', cursive, sans-serif;    
 }
 
@@ -53,6 +57,28 @@ h3 {
 #pot-gold {
     height: 80px;
 }
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 20px 0;
+}
+
+
+.button-padding {
+    padding-bottom: 20px ;
+}
+
+
+.correctAnswer:disabled {
+    background-color: rgb(66, 212, 110);
+    opacity: unset;
+}
+
+.wrongAnswer:disabled {
+    background-color: #f8953e;
+    opacity: unset;
+}
+
 
 /* -------------------------------------Animations */
 
@@ -80,8 +106,16 @@ h3 {
 /* -------------------------------------FOOTER SECTION */
 /* -------------------------------------Social Media Links */
 
-
-
+footer {        
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 0px;
+        margin: 0;
+        overflow-x: hidden;
+        text-decoration: none;
+        min-height: 70px;
+}
 
 /* -------------------------------------Media Queries */
 /* -------------------------------------Responsive Design - TABLET */
@@ -99,6 +133,59 @@ h3 {
     width: 20%;
     max-width: 200px;
 }
-
 }
 
+
+@media screen and (max-width: 400px) {
+    .paddy-day-header {
+    font-size: 3rem;
+    }
+    .responsive-text h4 {
+    margin: 1.5rem!important;
+    }
+}
+
+
+
+/* -------------------------------------footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    min-height: 150px;
+    margin: 0;
+    padding: 20px 0px 40px 0px;  
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons ul {
+    margin-bottom: 0px;
+}
+
+.social-links li a i {
+    width: 50px;
+    height: 50px;    
+    text-align: center;
+    margin-top: 15px;  
+    font-size: 35px;  
+    color: #ff7900;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out; 
+}
+
+.social-links li a i:hover {
+    color: #198754;  
+}
+
+.social-links .list-inline-item{
+    margin: 0;    
+}
+
+.copyrights {      
+    list-style: none;  
+    padding-left: 0;       
+}

@@ -14,7 +14,7 @@
 
 Hackathon Project
 ======
-## <img src="assets/images/shamrock.png"> Happy St. Patricks Day Game Quizz<img src="assets/images/shamrock.png">
+## <img src="assets/images/shamrock.png"> Happy St. Patrick's Day Quiz<img src="assets/images/shamrock.png">
 
 By: LaiMo, Nicola, Simon, Sue, SuzyBee, Tobi, Marina, March 2021<br>
 This Project is an Team Event Project organized by [Code Institute](https://www.codeinstitute.net/).
@@ -39,7 +39,7 @@ Live Project
 ## Contents ##
 ​
 - [Hackathon Project](#hackathon-project)
-  - [<img src="assets/images/shamrock.png"> Happy St. Patricks Day Game Quizz<img src="assets/images/shamrock.png">](#-happy-st-patricks-day-game-quizz)
+  - [Happy St. Patricks Day Quiz](#-happy-st-patricks-day-quiz-)
 - [Project description](#project-description)
 - [Screenshot](#screenshot)
 - [Live Project](#live-project)
@@ -99,36 +99,46 @@ Live Project
 ## UX (User Experience) ##
 ​
 ### Project Goals ###
-​
-The **goal** of this project is to build a ... 
+
+-To come up with a website that will help people to celebrate St Patrick’s day together, while apart.
+-We want to make effective use of course knowledge and collaborate together
+-Make a project that works and is practical
+-Work together as a team and ensure each team member feels included and has the opportunity to contribute what they are able and we all have fun and learn the skills necessary for collaboration.
+-Give attention to the project presentation and adhere to the theme
+-Build something awesome that we are proud of as a team.
 ​
 ​
 The **features** on the website will:
 ​
-- Show a ...
-- Provide an ...
+-Give the user a way to compete with friends and family using an Irish themed quiz game and allow them to keep up to date with our next quizzes through social media pages.
 ​
-I achieve this by:
-​
-- Building the ...
-- Allowing the user to ...
-​
+I achieved this by:
+-Making a fun story and game with various Irish themed questions.
+-Providing social media links in the footer section of each page.
+
 ### User Goals ###
 ​
-- **Do stuff**.
-- **achieve more stuff**.
+-The user will test their knowledge on Irish culture, history and geography
+-The user will learn more about Irish culture, history and geography
+-The user will gain points (gold coins) and be able to compare with other users.
+
 ​
 ### User Stories ###
 ​
-- As a **user**, I want to ...
-- As a **user**, I want to be able to ....
-- As a **user**, I want to ...
+- As a user, I want the home screen to be simple with a clear indication of what I can do and to be able to navigate it easily.
+- As a user, I want to play the game so I can compete against my friends and win the game
+- As a user, I want to see the button to Start the game and would like to see the answers as I select them and see the score increase as I progress through the game
+- As a user I would like the game to have an Irish theme
+- As a user, I want to see social media links in the footer
+- as a user I want to see my score at the end of the quiz
+- as a user I want to know more about St Patrick, so that i have a better knowledge about it
+- as a user i want to see my progress, how many questions are left and how many i already answered
+- as a user i want to give an answer and have feedback whether it is correct or not
 ​
 ### Site Owner Goals ###
 ​
-- As a **site owner**, I want to create an **interactive website** to present a clean, easy to understand display of information.
-- As a **site owner**, I want the **user** to see ....
-- As a **site owner**, I want the **user** to be able to ...
+-As a site owner, I want to create an interactive website to present a clean, easy to understand display of information.
+-As a site owner, I want the user to see the social media links in the footer so they know how to interact with us. 
 ​
 ​
 --- 
@@ -137,7 +147,7 @@ I achieve this by:
 ​
 ### Fonts ###
 ​
-We chose the [Lobbster](https://fonts.google.com/specimen/Lobster?preview.text_type=custom#standard-styles) font for the h1-h3 and the [Roboto](https://fonts.google.com/specimen/Roboto?preview.text_type=custom) font as basic and Sans-Serif as default font.
+We chose the [Lobster](https://fonts.google.com/specimen/Lobster?preview.text_type=custom#standard-styles) font for the h1-h3 and the [Roboto](https://fonts.google.com/specimen/Roboto?preview.text_type=custom) font as basic and Sans-Serif as default font.
 ​
 ### Colours ###
 ​
@@ -155,6 +165,8 @@ We chose for the website the Irish and St. Patricks Day colours.<br>
 - *Green Pigment* (#009B4B) - Bright Green
 - *White* (#FFFFFF) - White
 - *Heat Wave* (#FF7900) - Bright Orange
+- rgb(66, 212, 110) - Dark Green for the answer correct button
+- #f8953e - Light Orange for the answer incorrect button
 
 
 These colours will compliment each other well and provide the user with a distinct, recognisable  colour scheme commonly identified with St. Patrick's Day celebrations.
@@ -168,6 +180,7 @@ The Hero image is the irish flag in a banner desing.
 ​
 paint. net was used to create the wireframes during the design process.
 [View the wireframes here.](wireframes/paddy-day-quiz.jpg)
+
 
 ​---  
 ​
@@ -217,7 +230,8 @@ paint. net was used to create the wireframes during the design process.
   - An online tool to find out the screen resolution on your device used for CSS @media queries
 - [paint.net](https://www.getpaint.net/download.html)
   - paint.net is a photo and images editor program.  
-​
+​- [Favicon](https://favicon.io/)
+  - Used for icons to enhance headings and add emphasis to text.
   
 ---
 ​
