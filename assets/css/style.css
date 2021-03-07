@@ -89,7 +89,19 @@ h6 {
 
 .quitz-row button {
     width: 95%;
+    text-align: center;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+.btn-success {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+    font-size: larger;
+}
+
 
 /* -------------------------------------FOOTER SECTION */
 /* -------------------------------------Social Media Links */

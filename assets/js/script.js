@@ -501,6 +501,7 @@ let questionList = [
     "id": 39,
     "question": "Which is the longest river in the British Isles?",
     "answers": {
+
         "a": "River Shannon",
         "b": "River Suir",
         "c": "River Liffey",
@@ -708,7 +709,7 @@ let questionList = [
     "url": "placeholder"
 }
 ];
-
+import 
 const game = (function () {
     const gameLength = 10;
     let givenAnswers = 0;
