@@ -3,8 +3,6 @@
 
 /* -------------------------------------Special Styling */
 
-
-/* -------------------------------------HEADER SECTION */
 .center {
     display: flex;    
     justify-content: center;
@@ -23,8 +21,6 @@
 button h4 {
     text-transform: uppercase;
 }
-/* -------------------------------------Navbar */
-
 
 /* -------------------------------------MAIN BODY STYLING */
 body {    
@@ -56,9 +52,11 @@ h3 {
 #banner {
     width: 80%;
 }
+
 #leprechaun {
     width: 25%;
 }
+
 #pot-gold {
     height: 80px;
 }
@@ -68,11 +66,9 @@ h3 {
     padding: 20px 0;
 }
 
-
 .button-padding {
     padding-bottom: 20px ;
 }
-
 
 .correctAnswer:disabled {
     background-color: rgb(66, 212, 110);
@@ -84,15 +80,9 @@ h3 {
     opacity: unset;
 }
 
-
-/* -------------------------------------Animations */
-
-
-
-
 /* -------------------------------------Buttons */
 
-.quitz-row button {
+.quiz-row button {
     width: 95%;
     text-align: center;
     padding: 0px;
@@ -100,6 +90,7 @@ h3 {
     margin-right: auto;
     
 }
+
 .btn-success {
     color: #fff;
     background-color: #198754;
@@ -107,58 +98,33 @@ h3 {
     font-size: larger;
 }
 
+#restart,
+#back-btn,
+#start {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#start {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
 
 /* -------------------------------------FOOTER SECTION */
-/* -------------------------------------Social Media Links */
 
 footer {        
         background-color: black;
         color: white;
         text-align: center;
-        padding: 0px;
         margin: 0;
         overflow-x: hidden;
         text-decoration: none;
-        min-height: 70px;
+        min-height: 150px;
+        padding: 20px 0px 40px 0px;
 }
 
-/* -------------------------------------Media Queries */
-/* -------------------------------------Responsive Design - TABLET */
-
-
-
-
-
-/* -------------------------------------Responsive Design - MOBILE */
-@media screen and (min-width: 991px) {
-    #banner {
-    width: 60%;
-    max-width: 800px;
-}
-    #leprechaun {
-    width: 20%;
-    max-width: 200px;
-}
-}
-
-
-@media screen and (max-width: 400px) {
-    .paddy-day-header {
-    font-size: 3rem;
-    }
-    .responsive-text h4 {
-    margin: 1.5rem!important;
-    }
-}
-
-/* -------------------------------------footer */
-footer {
-    background-color: #000;
-    color: #fff;
-    min-height: 150px;
-    margin: 0;
-    padding: 20px 0px 40px 0px;  
-}
+/* -------------------------------------Social Media Links */
 
 .social-icons {
     text-align: center;
@@ -193,4 +159,28 @@ footer {
 .copyrights {      
     list-style: none;  
     padding-left: 0;       
+}
+
+
+/* -------------------------------------Media Queries */
+/* -------------------------------------Responsive Design - TABLET */
+@media screen and (min-width: 991px) {
+    #banner {
+        width: 60%;
+        max-width: 800px;
+    }
+    #leprechaun {
+        width: 20%;
+        max-width: 200px;
+    }
+}
+
+/* -------------------------------------Responsive Design - MOBILE */
+@media screen and (max-width: 400px) {
+    .paddy-day-header {
+        font-size: 3rem;
+    }
+    .responsive-text h4 {
+        margin: 1.5rem!important;
+    }
 }
