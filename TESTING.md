@@ -87,15 +87,6 @@ The following **validation services** and **linters** were used to check the val
 - The test cases,
 - The pass / fail record for each test case.
 
-
-### **User Acceptance Testing (UAT)** ###
-[UAT document](testing/uat-test-plan.pdf) containing:
-- UAT approach (scope, assumptions and constraints, team roles and responsibilities etc.), 
-- Identified risks, 
-- The test cases,
-- The pass / fail record for each test case.
-
-
 ### **Peer Code Review** ###
 The deployed website link was subjected to peer code review and testing:
 - Team-18 project team members
