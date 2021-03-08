@@ -55,6 +55,21 @@ The following **validation services** and **linters** were used to check the val
             Add a media description provide a brief summary of a web page and help the search engine.
         - Best Practice 100%
 
+
+### HTML vlaidation 
+
+#### index.html
+
+- ![vlaidator/screnshoot/HTML/index](/validation/index_html.png)
+#### game.html
+
+- ![vlaidator/screnshoot/HTML/game](/validation/game_html.png)
+
+### CSS vladation 
+#### style.css
+- ![vlaidator/screnshoot/CSS](/validation/style_css.png)
+
+
   - **Desktop Performance Report**
     
     [Google Lighthouse - First Report Desktop](assets/images/screenshots/s-one.png)
