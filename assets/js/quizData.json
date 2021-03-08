@@ -1,4 +1,4 @@
-let questionList = [
+[
     {
     "id": 1,
     "question": "Which of these were created by an Irish inventor?",
@@ -32,7 +32,7 @@ let questionList = [
         "a": "Red, white and blue",
         "b": "Green, white and orange",
         "c": "Black, green and silver",
-        "d": "Blue, white and yellow",
+        "d": "Blue, white and yellow"
     },
     "correct": "b",
     "url": "placeholder"
@@ -45,7 +45,7 @@ let questionList = [
         "a": "Cork",
         "b": "Dublin",
         "c": "Kilkenny",
-        "d": "Donegal",
+        "d": "Donegal"
     },
     "correct": "a",
     "url": "placeholder"
@@ -58,11 +58,12 @@ let questionList = [
         "a": "Bewitched",
         "b": "Boyzone",
         "c": "Westlife",
-        "d": "The Cranberries",
+        "d": "The Cranberries"
     },
     "correct": "d",
     "url": "placeholder"
 },
+
 
     {
     "id": 6,
@@ -71,12 +72,12 @@ let questionList = [
         "a": "New York",
         "b": "Boston",
         "c": "Chicago",
-        "d": "Seattle",
+        "d": "Seattle"
     },
     "correct": "c",
     "url": "placeholder"
 },
-	
+
     {
     "id": 7,
     "question": "Which Irishman played James Bond in the 1995 movie 'Goldeneye'?",
@@ -84,7 +85,7 @@ let questionList = [
         "a": "Colin Farrell",
         "b": "Pierce Brosnan",
         "c": "Cilian Murphy",
-        "d": "Liam Neeson",
+        "d": "Liam Neeson"
     },
     "correct": "b",
     "url": "placeholder"
@@ -98,11 +99,12 @@ let questionList = [
         "a": "Football",
         "b": "Rugby",
         "c": "Gaelic Football",
-        "d": "Hockey",
+        "d": "Hockey"
     },
     "correct": "c",
     "url": "placeholder"
 },
+
 
     {
     "id": 9,
@@ -111,7 +113,7 @@ let questionList = [
         "a": "Graham Norton",
         "b": "Brendan Gleeson",
         "c": "James Nesbitt",
-        "d": "Chris O'Dowd",
+        "d": "Chris O'Dowd"
     },
     "correct": "d",
     "url": "placeholder"
@@ -125,7 +127,7 @@ let questionList = [
         "a": "Britain",
         "b": "Ireland",
         "c": "Nigeria",
-        "d": "Switzerland",
+        "d": "Switzerland"
     },
     "correct": "a",
     "url": "placeholder"
@@ -138,7 +140,7 @@ let questionList = [
         "a": "Irish",
         "b": "French",
         "c": "German",
-        "d": "Scottish",
+        "d": "Scottish"
     },
     "correct": "d",
     "url": "placeholder"
@@ -151,7 +153,7 @@ let questionList = [
         "a": "Domhnall Gleeson",
         "b": "Liam Neeson",
         "c": "Bronagh Gallagher",
-        "d": "Aising Bea",
+        "d": "Aising Bea"
     },
     "correct": "d",
     "url": "placeholder"
@@ -164,7 +166,7 @@ let questionList = [
         "a": "Dublin",
         "b": "Cork",
         "c": "Galway",
-        "d": "Kerry",
+        "d": "Kerry"
     },
     "correct": "a",
     "url": "placeholder"
@@ -177,7 +179,7 @@ let questionList = [
         "a": "Irish and English",
         "b": "French and English",
         "c": "Irish and Scottish",
-        "d": "Irish and Welsh",
+        "d": "Irish and Welsh"
     },
     "correct": "a",
     "url": "placeholder"
@@ -190,7 +192,7 @@ let questionList = [
         "a": "4",
         "b": "7",
         "c": "9",
-        "d": "Never",
+        "d": "Never"
     },
     "correct": "b",
     "url": "placeholder"
@@ -203,7 +205,7 @@ let questionList = [
         "a": "Craggy Island",
         "b": "Shaggy Island",
         "c": "Smelly Island",
-        "d": "Foggy Island",
+        "d": "Foggy Island"
     },
     "correct": "a",
     "url": "placeholder"
@@ -216,7 +218,7 @@ let questionList = [
         "a": "He was abducted and taken as a slave",
         "b": "He had family in Dublin",
         "c": "He came to bring Christianity to the Pagans",
-        "d": "He came to banish the snakes",
+        "d": "He came to banish the snakes"
     },
     "correct": "a",
     "url": "placeholder"
@@ -229,7 +231,7 @@ let questionList = [
         "a": "The Galtees",
         "b": "The Mourne Mountains",
         "c": "MacGillycuddy's Reeks",
-        "d": "Wicklow Mountains",
+        "d": "Wicklow Mountains"
     },
     "correct": "c",
     "url": "placeholder"
@@ -242,7 +244,7 @@ let questionList = [
         "a": "Mary McAleese",
         "b": "Mary Robinson",
         "c": "Patrick Hillery",
-        "d": "Michael D. Higgins",
+        "d": "Michael D. Higgins"
     },
     "correct": "a",
     "url": "placeholder"
@@ -255,7 +257,7 @@ let questionList = [
         "a": "It contains antioxidants",
         "b": "It was once given to pregnant ladies as doctors believed it was good for the baby",
         "c": "It may promote bone density",
-        "d": "All of the above",
+        "d": "All of the above"
     },
     "correct": "d",
     "url": "placeholder"
@@ -268,7 +270,7 @@ let questionList = [
         "a": "10",
         "b": "14",
         "c": "23",
-        "d": "42",
+        "d": "42"
     },
     "correct": "b",
     "url": "placeholder"
@@ -281,7 +283,7 @@ let questionList = [
         "a": "Boiled pigs' feet which are typically battered and fried",
         "b": "Bread fried in bacon fat",
         "c": "A type of black pudding",
-        "d": "Guinness soaked beans",
+        "d": "Guinness soaked beans"
     },
     "correct": "a",
     "url": "placeholder"
@@ -294,7 +296,7 @@ let questionList = [
         "a": "Athenry",
         "b": "Kinsale",
         "c": "Ballyhea",
-        "d": "Knocktopher",
+        "d": "Knocktopher"
     },
     "correct": "a",
     "url": "placeholder"
@@ -307,7 +309,7 @@ let questionList = [
         "a": "Herbert Park",
         "b": "St Patrick's Park",
         "c": "Corkagh Park",
-        "d": "Phoenix Park",
+        "d": "Phoenix Park"
     },
     "correct": "d",
     "url": "placeholder"
@@ -316,11 +318,11 @@ let questionList = [
     {
     "id": 25,
     "question": "When was Trinity College founded?",
-    "answers" {
+    "answers": {
         "a": "1552",
         "b": "1569",
         "c": "1592",
-        "d": "1601",
+        "d": "1601"
     },
     "correct": "c",
     "url": "placeholder"
@@ -333,7 +335,7 @@ let questionList = [
         "a": "4",
         "b": "5",
         "c": "8",
-        "d": "9",
+        "d": "9"
     },
     "correct": "c",
     "url": "placeholder"
@@ -346,7 +348,7 @@ let questionList = [
         "a": "Patience",
         "b": "Eloquence",
         "c": "Grace",
-        "d": "Herpes",
+        "d": "Herpes"
     },
     "correct": "b",
     "url": "placeholder"
@@ -359,7 +361,7 @@ let questionList = [
         "a": "The School Around the Corner",
         "b": "The Late Late Show",
         "c": "The Life and Times of Arthur Murphy",
-        "d": "The Graham Norton Show",
+        "d": "The Graham Norton Show"
     },
     "correct": "c",
     "url": "placeholder"
@@ -372,7 +374,7 @@ let questionList = [
         "a": "Blasket Islands",
         "b": "Dunquin",
         "c": "Skelling Islands",
-        "d": "Skerries",
+        "d": "Skerries"
     },
     "correct": "b",
     "url": "placeholder"
@@ -385,7 +387,7 @@ let questionList = [
         "a": "300 years",
         "b": "400 years",
         "c": "450 years",
-        "d": "The Romans never occupied Ireland",
+        "d": "The Romans never occupied Ireland"
     },
     "correct": "d",
     "url": "placeholder"
@@ -398,7 +400,7 @@ let questionList = [
         "a": "26th of February",
         "b": "17th of March",
         "c": "31st of October",
-        "d": "25th of December",
+        "d": "25th of December"
     },
     "correct": "b",
     "url": "placeholder"
@@ -411,7 +413,7 @@ let questionList = [
         "a": "Kilkenny",
         "b": "Cork",
         "c": "Galway",
-        "d": "Limerick",
+        "d": "Limerick"
     },
     "correct": "a",
     "url": "placeholder"
@@ -424,7 +426,7 @@ let questionList = [
         "a": "1690",
         "b": "1922",
         "c": "1945",
-        "d": "1987",
+        "d": "1987"
     },
     "correct": "b",
     "url": "placeholder"
@@ -437,7 +439,7 @@ let questionList = [
         "a": "Irish Sea",
         "b": "British Sea",
         "c": "Scottish Sea",
-        "d": "Tennessee",
+        "d": "Tennessee"
     },
     "correct": "a",
     "url": "placeholder"
@@ -450,7 +452,7 @@ let questionList = [
         "a": "Dia Dhuit",
         "b": "Fáilte",
         "c": "Slán",
-        "d": "Cá bhfuil an leabharlann",
+        "d": "Cá bhfuil an leabharlann"
     },
     "correct": "a",
     "url": "placeholder"
@@ -463,7 +465,7 @@ let questionList = [
         "a": "The Crannies",
         "b": "The Corrs",
         "c": "The Buses",
-        "d": "The Sledge",
+        "d": "The Sledge"
     },
     "correct": "b",
     "url": "placeholder"
@@ -476,7 +478,7 @@ let questionList = [
         "a": "The Golden Isle",
         "b": "The Ruby Isle",
         "c": "The Amethyst Isle",
-        "d": "The Emerald Isle",
+        "d": "The Emerald Isle"
     },
     "correct": "d",
     "url": "placeholder"
@@ -489,7 +491,7 @@ let questionList = [
         "a": "Crilly",
         "b": "Athy",
         "c": "Blake",
-        "d": "D'arcy",
+        "d": "D'arcy"
     },
     "correct": "a",
     "url": "placeholder"
@@ -498,12 +500,12 @@ let questionList = [
     {
     "id": 39,
     "question": "Which is the longest river in the British Isles?",
-    "answers":
-     {
+    "answers": {
+
         "a": "River Shannon",
         "b": "River Suir",
         "c": "River Liffey",
-        "d": "River Boyne",
+        "d": "River Boyne"
     },
     "correct": "a",
     "url": "placeholder"
@@ -516,7 +518,7 @@ let questionList = [
         "a": "Fiddle",
         "b": "Flute",
         "c": "Harp",
-        "d": "Kick drum",
+        "d": "Kick drum"
     },
     "correct": "c",
     "url": "placeholder"
@@ -524,12 +526,12 @@ let questionList = [
 
     {
     "id": 41,
-    "question": "Greater Dublin is the birthplace of three winners of the Nobel Prize for Literature. Which of these authors didn't receive one?", 
+    "question": "Greater Dublin is the birthplace of three winners of the Nobel Prize for Literature. Which of these authors didn't receive one?",
     "answers": {
         "a": "Oscar Wilde",
         "b": "Samuel Beckett",
         "c": "George Bernard Shaw",
-        "d": "William Butler Yeats",
+        "d": "William Butler Yeats"
     },
     "correct": "a",
     "url": "placeholder"
@@ -537,12 +539,12 @@ let questionList = [
 
     {
     "id": 42,
-    "question": "Which Irish baker invented both the fig roll and the cream cracker?", 
+    "question": "Which Irish baker invented both the fig roll and the cream cracker?",
     "answers": {
         "a": "WR Jacobs",
         "b": "May Graham",
         "c": "Darina Allen",
-        "d": "Dylan McGrath",
+        "d": "Dylan McGrath"
     },
     "correct": "a",
     "url": "placeholder"
@@ -555,7 +557,7 @@ let questionList = [
         "a": "Dublin",
         "b": "Cork",
         "c": "Kerry",
-        "d": "Belfast",
+        "d": "Belfast"
     },
     "correct": "d",
     "url": "placeholder"
@@ -563,12 +565,12 @@ let questionList = [
 
     {
     "id": 44,
-    "question": "How many men were employed to build the Titanic (approx.)?", 
+    "question": "How many men were employed to build the Titanic (approx.)?",
     "answers": {
         "a": "10,000",
         "b": "14,000",
         "c": "16,000",
-        "d": "20,000",
+        "d": "20,000"
     },
     "correct": "b",
     "url": "placeholder"
@@ -581,7 +583,7 @@ let questionList = [
         "a": "3.4 million",
         "b": "3.9 million",
         "c": "4.9 million",
-        "d": "5.5 million",
+        "d": "5.5 million"
     },
     "correct": "c",
     "url": "placeholder"
@@ -590,12 +592,12 @@ let questionList = [
 
     {
     "id": 46,
-    "question": "Which Irish airport in 1947 became the first in the World to open a duty-free shop?", 
+    "question": "Which Irish airport in 1947 became the first in the World to open a duty-free shop?",
     "answers": {
         "a": "Dublin",
         "b": "Shannon",
         "c": "Knock",
-        "d": "Donegal",
+        "d": "Donegal"
     },
     "correct": "b",
     "url": "placeholder"
@@ -603,12 +605,12 @@ let questionList = [
 
     {
     "id": 47,
-    "question": "Which of these countries compete in the Guinness Six Nations Championship?", 
+    "question": "Which of these countries compete in the Guinness Six Nations Championship?",
     "answers": {
         "a": "Ireland, Scotland, Germany, France, Wales, Italy",
         "b": "Ireland, Scotland, England, France, Wales, Spain",
         "c": "Ireland, Norway, England, France, Wales, Italy",
-        "d": "Ireland, Scotland, England, France, Wales, Italy",
+        "d": "Ireland, Scotland, England, France, Wales, Italy"
     },
     "correct": "d",
     "url": "placeholder"
@@ -617,12 +619,12 @@ let questionList = [
 
     {
     "id": 48,
-    "question": "Which of these is Michael Flatley also known as?", 
+    "question": "Which of these is Michael Flatley also known as?",
     "answers": {
         "a": "Lord of the Dance",
         "b": "Lord of the Flies",
         "c": "Lord of the Rings",
-        "d": "Lord of the Shamrocks",
+        "d": "Lord of the Shamrocks"
     },
     "correct": "a",
     "url": "placeholder"
@@ -630,12 +632,12 @@ let questionList = [
 
     {
     "id": 49,
-    "question": "Typically a shamrock has how many leaves?", 
+    "question": "Typically a shamrock has how many leaves?",
     "answers": {
         "a": "1",
         "b": "2",
         "c": "3",
-        "d": "4",
+        "d": "4"
     },
     "correct": "c",
     "url": "placeholder"
@@ -643,12 +645,12 @@ let questionList = [
 
     {
     "id": 50,
-    "question": "Which currency is used in Ireland?", 
+    "question": "Which currency is used in Ireland?",
     "answers": {
         "a": "Pound Sterling",
         "b": "Dollar",
         "c": "Euro",
-        "d": "Yen",
+        "d": "Yen"
     },
     "correct": "c",
     "url": "placeholder"
@@ -656,12 +658,12 @@ let questionList = [
 
     {
     "id": 51,
-    "question": "When did the Great Famine occur?", 
+    "question": "When did the Great Famine occur?",
     "answers": {
         "a": "1845-1852",
         "b": "1852-1859",
         "c": "1859-1867",
-        "d": "1867-1874",
+        "d": "1867-1874"
     },
     "correct": "a",
     "url": "placeholder"
@@ -675,7 +677,7 @@ let questionList = [
         "a": "County Clare",
         "b": "County Limerick",
         "c": "County Wicklow",
-        "d": "County Louth",
+        "d": "County Louth"
     },
     "correct": "a",
     "url": "placeholder"
@@ -688,7 +690,7 @@ let questionList = [
         "a": "County Clare",
         "b": "County Limerick",
         "c": "County Wicklow",
-        "d": "County Kildare",
+        "d": "County Kildare"
     },
     "correct": "d",
     "url": "placeholder"
@@ -701,9 +703,9 @@ let questionList = [
         "a": "The West Wing",
         "b": "Frasier",
         "c": "The Big Bang Theory",
-        "d": "Buffy the Vampire Slayer",
+        "d": "Buffy the Vampire Slayer"
     },
     "correct": "d",
     "url": "placeholder"
 }
-];
+]

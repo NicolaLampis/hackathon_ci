@@ -1,714 +1,19 @@
-let questionList = [
-    {
-    "id": 1,
-    "question": "Which of these were created by an Irish inventor?",
-    "answers": {
-        "a": "The electric whisk",
-        "b": "The sausage stuffer",
-        "c": "The back scratcher",
-        "d": "The submarine"
-    },
-    "correct": "d",
-    "url": "placeholder"
-},
+let questionList = null;
 
-    {
-    "id": 2,
-    "question": "What is the Irish national animal?",
-    "answers": {
-        "a": "Irish Hare",
-        "b": "Pine marten",
-        "c": "Stag",
-        "d": "Galway sheep"
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
+document.addEventListener("DOMContentLoaded", function() {
+    getJsonThenLoad();
+});
 
-    {
-    "id": 3,
-    "question": "Which colours are shown in the Irish flag?",
-    "answers": {
-        "a": "Red, white and blue",
-        "b": "Green, white and orange",
-        "c": "Black, green and silver",
-        "d": "Blue, white and yellow",
-    },
-    "correct": "b",
-    "url": "placeholder"
-},
-
-    {
-    "id": 4,
-    "question": "In which Irish county would you find Blarney Castle home of the World famous Blarney Stone?",
-    "answers": {
-        "a": "Cork",
-        "b": "Dublin",
-        "c": "Kilkenny",
-        "d": "Donegal",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 5,
-    "question": "Which Irish band had UK top twenty hits with 'Zombie' and 'Linger'",
-    "answers": {
-        "a": "Bewitched",
-        "b": "Boyzone",
-        "c": "Westlife",
-        "d": "The Cranberries",
-    },
-    "correct": "d",
-    "url": "placeholder"
-},
-
-
-    {
-    "id": 6,
-    "question": "Which US city dyes its river green on St Patrick's Day?",
-    "answers": {
-        "a": "New York",
-        "b": "Boston",
-        "c": "Chicago",
-        "d": "Seattle",
-    },
-    "correct": "c",
-    "url": "placeholder"
-},
-	
-    {
-    "id": 7,
-    "question": "Which Irishman played James Bond in the 1995 movie 'Goldeneye'?",
-    "answers": {
-        "a": "Colin Farrell",
-        "b": "Pierce Brosnan",
-        "c": "Cilian Murphy",
-        "d": "Liam Neeson",
-    },
-    "correct": "b",
-    "url": "placeholder"
-},
-
-
-    {
-    "id": 8,
-    "question": "Which sport is most popular in Ireland?",
-    "answers": {
-        "a": "Football",
-        "b": "Rugby",
-        "c": "Gaelic Football",
-        "d": "Hockey",
-    },
-    "correct": "c",
-    "url": "placeholder"
-},
-
-
-    {
-    "id": 9,
-    "question": "Which Irish actor played Roy Trenneman in The IT Crowd from 2006-2013?",
-    "answers": {
-        "a": "Graham Norton",
-        "b": "Brendan Gleeson",
-        "c": "James Nesbitt",
-        "d": "Chris O'Dowd",
-    },
-    "correct": "d",
-    "url": "placeholder"
-},
-
-
-    {
-    "id": 10,
-    "question": "Which country consumes the most Guinness?",
-    "answers": {
-        "a": "Britain",
-        "b": "Ireland",
-        "c": "Nigeria",
-        "d": "Switzerland",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 11,
-    "question": "What nationality was St Patrick?",
-    "answers": {
-        "a": "Irish",
-        "b": "French",
-        "c": "German",
-        "d": "Scottish",
-    },
-    "correct": "d",
-    "url": "placeholder"
-},
-
-    {
-    "id": 12,
-    "question": "Which of these Irish actors has NOT been in Star Wars?",
-    "answers": {
-        "a": "Domhnall Gleeson",
-        "b": "Liam Neeson",
-        "c": "Bronagh Gallagher",
-        "d": "Aising Bea",
-    },
-    "correct": "d",
-    "url": "placeholder"
-},
-
-    {
-    "id": 13,
-    "question": "Where is The Guinness Storehouse located?",
-    "answers": {
-        "a": "Dublin",
-        "b": "Cork",
-        "c": "Galway",
-        "d": "Kerry",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 14,
-    "question": "Which are the official languages spoken in Ireland?",
-    "answers": {
-        "a": "Irish and English",
-        "b": "French and English",
-        "c": "Irish and Scottish",
-        "d": "Irish and Welsh",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 15,
-    "question": "How many times has Ireland won the Eurovision Song Contest?",
-    "answers": {
-        "a": "4",
-        "b": "7",
-        "c": "9",
-        "d": "Never",
-    },
-    "correct": "b",
-    "url": "placeholder"
-},
-
-    {
-    "id": 16,
-    "question": "On which fictional island did Fathers Ted, Dougal and Jack live?",
-    "answers": {
-        "a": "Craggy Island",
-        "b": "Shaggy Island",
-        "c": "Smelly Island",
-        "d": "Foggy Island",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 17,
-    "question": "Why did St Patrick come to Ireland?",
-    "answers": {
-        "a": "He was abducted and taken as a slave",
-        "b": "He had family in Dublin",
-        "c": "He came to bring Christianity to the Pagans",
-        "d": "He came to banish the snakes",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 18,
-    "question": "Carrauntoohill is in which mountain range?",
-    "answers": {
-        "a": "The Galtees",
-        "b": "The Mourne Mountains",
-        "c": "MacGillycuddy's Reeks",
-        "d": "Wicklow Mountains",
-    },
-    "correct": "c",
-    "url": "placeholder"
-},
-
-    {
-    "id": 19,
-    "question": "Who was the Irish President from 1997-2011?",
-    "answers": {
-        "a": "Mary McAleese",
-        "b": "Mary Robinson",
-        "c": "Patrick Hillery",
-        "d": "Michael D. Higgins",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 20,
-    "question": "Which of these statements about Guinness is true?",
-    "answers": {
-        "a": "It contains antioxidants",
-        "b": "It was once given to pregnant ladies as doctors believed it was good for the baby",
-        "c": "It may promote bone density",
-        "d": "All of the above",
-    },
-    "correct": "d",
-    "url": "placeholder"
-},
-
-    {
-    "id": 21,
-    "question": "The Galway Tribes consisted of how many families?",
-    "answers": {
-        "a": "10",
-        "b": "14",
-        "c": "23",
-        "d": "42",
-    },
-    "correct": "b",
-    "url": "placeholder"
-},
-
-    {
-    "id": 22,
-    "question": "What are crubeens?",
-    "answers": {
-        "a": "Boiled pigs' feet which are typically battered and fried",
-        "b": "Bread fried in bacon fat",
-        "c": "A type of black pudding",
-        "d": "Guinness soaked beans",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 23,
-    "question": "Which Irish town name means 'Ford of Kings'?",
-    "answers": {
-        "a": "Athenry",
-        "b": "Kinsale",
-        "c": "Ballyhea",
-        "d": "Knocktopher",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 24,
-    "question": "Which park in Dublin is the largest?",
-    "answers": {
-        "a": "Herbert Park",
-        "b": "St Patrick's Park",
-        "c": "Corkagh Park",
-        "d": "Phoenix Park",
-    },
-    "correct": "d",
-    "url": "placeholder"
-},
-
-    {
-    "id": 25,
-    "question": "When was Trinity College founded?",
-    "answers": {
-        "a": "1552",
-        "b": "1569",
-        "c": "1592",
-        "d": "1601",
-    },
-    "correct": "c",
-    "url": "placeholder"
-},
-
-    {
-    "id": 26,
-    "question": "How many counties does County Tipperary border?",
-    "answers": {
-        "a": "4",
-        "b": "5",
-        "c": "8",
-        "d": "9",
-    },
-    "correct": "c",
-    "url": "placeholder"
-},
-
-    {
-    "id": 27,
-    "question": "What will kissing the Blarney Stone give you?",
-    "answers": {
-        "a": "Patience",
-        "b": "Eloquence",
-        "c": "Grace",
-        "d": "Herpes",
-    },
-    "correct": "b",
-    "url": "placeholder"
-},
-
-    {
-    "id": 28,
-    "question": "What is the name of Irelands first TV chat show?",
-    "answers": {
-        "a": "The School Around the Corner",
-        "b": "The Late Late Show",
-        "c": "The Life and Times of Arthur Murphy",
-        "d": "The Graham Norton Show",
-    },
-    "correct": "c",
-    "url": "placeholder"
-},
-
-    {
-    "id": 29,
-    "question": "Where was the Irish Author Peig Sayers born?",
-    "answers": {
-        "a": "Blasket Islands",
-        "b": "Dunquin",
-        "c": "Skelling Islands",
-        "d": "Skerries",
-    },
-    "correct": "b",
-    "url": "placeholder"
-},
-
-    {
-    "id": 30,
-    "question": "For how long did the Romans occupy Ireland?",
-    "answers": {
-        "a": "300 years",
-        "b": "400 years",
-        "c": "450 years",
-        "d": "The Romans never occupied Ireland",
-    },
-    "correct": "d",
-    "url": "placeholder"
-},
-
-    {
-    "id": 31,
-    "question": "On what date is St. Patrick's Day celebrated?",
-    "answers": {
-        "a": "26th of February",
-        "b": "17th of March",
-        "c": "31st of October",
-        "d": "25th of December",
-    },
-    "correct": "b",
-    "url": "placeholder"
-},
-
-    {
-    "id": 32,
-    "question": "Which of these cities was the capital of the Republic of Ireland until the Cromwell Conquest in 1649?",
-    "answers": {
-        "a": "Kilkenny",
-        "b": "Cork",
-        "c": "Galway",
-        "d": "Limerick",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 33,
-    "question": "When was the Irish Free State established?",
-    "answers": {
-        "a": "1690",
-        "b": "1922",
-        "c": "1945",
-        "d": "1987",
-    },
-    "correct": "b",
-    "url": "placeholder"
-},
-
-    {
-    "id": 34,
-    "question": "Which sea separates Ireland from Britain?",
-    "answers": {
-        "a": "Irish Sea",
-        "b": "British Sea",
-        "c": "Scottish Sea",
-        "d": "Tennessee",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 35,
-    "question": "How do you say 'hello' in Irish Gaelic?",
-    "answers": {
-        "a": "Dia Dhuit",
-        "b": "Fáilte",
-        "c": "Slán",
-        "d": "Cá bhfuil an leabharlann",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 36,
-    "question": "Which Irish family band consists of siblings Andrea, Sharon, Caroline and Jim?",
-    "answers": {
-        "a": "The Crannies",
-        "b": "The Corrs",
-        "c": "The Buses",
-        "d": "The Sledge",
-    },
-    "correct": "b",
-    "url": "placeholder"
-},
-
-    {
-    "id": 37,
-    "question": "What is the poetic name for Ireland?",
-    "answers": {
-        "a": "The Golden Isle",
-        "b": "The Ruby Isle",
-        "c": "The Amethyst Isle",
-        "d": "The Emerald Isle",
-    },
-    "correct": "d",
-    "url": "placeholder"
-},
-
-    {
-    "id": 38,
-    "question": "Which of these is NOT one of the 14 tribes of Galway?",
-    "answers": {
-        "a": "Crilly",
-        "b": "Athy",
-        "c": "Blake",
-        "d": "D'arcy",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 39,
-    "question": "Which is the longest river in the British Isles?",
-    "answers": {
-
-        "a": "River Shannon",
-        "b": "River Suir",
-        "c": "River Liffey",
-        "d": "River Boyne",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 40,
-    "question": "Which musical instrument is on the Coat of Arms of the Kingdom of Ireland?",
-    "answers": {
-        "a": "Fiddle",
-        "b": "Flute",
-        "c": "Harp",
-        "d": "Kick drum",
-    },
-    "correct": "c",
-    "url": "placeholder"
-},
-
-    {
-    "id": 41,
-    "question": "Greater Dublin is the birthplace of three winners of the Nobel Prize for Literature. Which of these authors didn't receive one?",
-    "answers": {
-        "a": "Oscar Wilde",
-        "b": "Samuel Beckett",
-        "c": "George Bernard Shaw",
-        "d": "William Butler Yeats",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 42,
-    "question": "Which Irish baker invented both the fig roll and the cream cracker?",
-    "answers": {
-        "a": "WR Jacobs",
-        "b": "May Graham",
-        "c": "Darina Allen",
-        "d": "Dylan McGrath",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 43,
-    "question": "Where was the Titanic built?",
-    "answers": {
-        "a": "Dublin",
-        "b": "Cork",
-        "c": "Kerry",
-        "d": "Belfast",
-    },
-    "correct": "d",
-    "url": "placeholder"
-},
-
-    {
-    "id": 44,
-    "question": "How many men were employed to build the Titanic (approx.)?",
-    "answers": {
-        "a": "10,000",
-        "b": "14,000",
-        "c": "16,000",
-        "d": "20,000",
-    },
-    "correct": "b",
-    "url": "placeholder"
-},
-
-    {
-    "id": 45,
-    "question": "What is the population of the Republic of Ireland?",
-    "answers": {
-        "a": "3.4 million",
-        "b": "3.9 million",
-        "c": "4.9 million",
-        "d": "5.5 million",
-    },
-    "correct": "c",
-    "url": "placeholder"
-},
-
-
-    {
-    "id": 46,
-    "question": "Which Irish airport in 1947 became the first in the World to open a duty-free shop?",
-    "answers": {
-        "a": "Dublin",
-        "b": "Shannon",
-        "c": "Knock",
-        "d": "Donegal",
-    },
-    "correct": "b",
-    "url": "placeholder"
-},
-
-    {
-    "id": 47,
-    "question": "Which of these countries compete in the Guinness Six Nations Championship?",
-    "answers": {
-        "a": "Ireland, Scotland, Germany, France, Wales, Italy",
-        "b": "Ireland, Scotland, England, France, Wales, Spain",
-        "c": "Ireland, Norway, England, France, Wales, Italy",
-        "d": "Ireland, Scotland, England, France, Wales, Italy",
-    },
-    "correct": "d",
-    "url": "placeholder"
-},
-
-
-    {
-    "id": 48,
-    "question": "Which of these is Michael Flatley also known as?",
-    "answers": {
-        "a": "Lord of the Dance",
-        "b": "Lord of the Flies",
-        "c": "Lord of the Rings",
-        "d": "Lord of the Shamrocks",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 49,
-    "question": "Typically a shamrock has how many leaves?",
-    "answers": {
-        "a": "1",
-        "b": "2",
-        "c": "3",
-        "d": "4",
-    },
-    "correct": "c",
-    "url": "placeholder"
-},
-
-    {
-    "id": 50,
-    "question": "Which currency is used in Ireland?",
-    "answers": {
-        "a": "Pound Sterling",
-        "b": "Dollar",
-        "c": "Euro",
-        "d": "Yen",
-    },
-    "correct": "c",
-    "url": "placeholder"
-},
-
-    {
-    "id": 51,
-    "question": "When did the Great Famine occur?",
-    "answers": {
-        "a": "1845-1852",
-        "b": "1852-1859",
-        "c": "1859-1867",
-        "d": "1867-1874",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-
-    {
-    "id": 52,
-    "question": "Where would you find Bunratty Castle and Folk Park?",
-    "answers": {
-        "a": "County Clare",
-        "b": "County Limerick",
-        "c": "County Wicklow",
-        "d": "County Louth",
-    },
-    "correct": "a",
-    "url": "placeholder"
-},
-
-    {
-    "id": 53,
-    "question": "In which Irish county were some of the scenes for 'Braveheart' filmed?",
-    "answers": {
-        "a": "County Clare",
-        "b": "County Limerick",
-        "c": "County Wicklow",
-        "d": "County Kildare",
-    },
-    "correct": "d",
-    "url": "placeholder"
-},
-
-    {
-    "id": 54,
-    "question": "The Claddagh ring was featured in which TV show?",
-    "answers": {
-        "a": "The West Wing",
-        "b": "Frasier",
-        "c": "The Big Bang Theory",
-        "d": "Buffy the Vampire Slayer",
-    },
-    "correct": "d",
-    "url": "placeholder"
-}
-];
+const getJsonThenLoad = function() {
+    fetch("./assets/js/quizData.json")
+        .then(file => {
+            return file.json();
+        })
+        .then(json => {
+            questionList = json;
+        })
+        .then(() => pageHandler.firstLoad());
+};
 
 const game = (function () {
     const gameLength = 10;
@@ -750,8 +55,6 @@ const game = (function () {
                 correctAnswers += 1;
             }
 
-            console.log(givenAnswer + " : " + correctAnswers); // DEBUG PURPOSES
-
             return question.correct;
         },
 
@@ -792,7 +95,7 @@ const game = (function () {
             }
         }
     };
-})()
+})();
 
 const pageHandler = (function () {
 
@@ -813,11 +116,11 @@ const pageHandler = (function () {
                 });
             });
 
-            for (let i = 0; i < answersElements.length; i++) {
-                answersElements[i].addEventListener("click", () => {
-                    pageHandler.giveAnswer(questionElement.value, answersElements[i].value)
-                })
-            };
+            for (let element of answersElements) {
+                element.addEventListener("click", () => {
+                    pageHandler.giveAnswer(questionElement.value, element.value);
+                });
+            }
 
             pageHandler.newQuestion();
         },
@@ -836,8 +139,8 @@ const pageHandler = (function () {
 
             } else {
 
-                for (let i = 0; i < answersElements.length; i++) {
-                    answersElements[i].classList.remove("correctAnswer", "wrongAnswer");
+                for (let element of  answersElements) {
+                    element.classList.remove("correctAnswer", "wrongAnswer");
                 }
 
                 correctAnswersElement.innerText = game.status()[1];
@@ -849,14 +152,14 @@ const pageHandler = (function () {
                  * Reference: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
                  * @param array
                  */
-                const shuffleArray = function (array) {
+                const shuffleArray = array => {
                     for (let i = array.length - 1; i > 0; i--) {
                         const j = Math.floor(Math.random() * (i + 1));
                         [array[i], array[j]] = [array[j], array[i]];
                     }
                     return array;
-                }
-                const answersShuffled = shuffleArray(Object.entries(questionData[2]))
+                };
+                const answersShuffled = shuffleArray(Object.entries(questionData[2]));
 
                 for (let i = 0; i < answersShuffled.length; i++) {
                     const button = answersElements[i];
@@ -875,19 +178,17 @@ const pageHandler = (function () {
         giveAnswer: function (questionId, clickedAnswer) {
             const correctAnswer = game.answer(questionId, clickedAnswer);
 
-            for (let i = 0; i < answersElements.length; i++) {
-                answersElements[i].disabled = true;
-                if (answersElements[i].value === correctAnswer) {
-                    answersElements[i].classList.add("correctAnswer");
+            for (let element of answersElements) {
+                element.disabled = true;
+                if (element.value === correctAnswer) {
+                    element.classList.add("correctAnswer");
                 } else {
-                    answersElements[i].classList.add("wrongAnswer");
+                    element.classList.add("wrongAnswer");
                 }
             }
             setTimeout(function () {
                 pageHandler.newQuestion();
             }, 2000);
         }
-    }
+    };
 })();
-
-document.addEventListener("DOMContentLoaded", pageHandler.firstLoad);
