@@ -67,12 +67,10 @@ The following **validation services** and **linters** were used to check the val
 
 
 - [JSHint (version 2.12.0)](https://jshint.com/)
-  - JSHint is a community-driven tool that detects errors and potential problems in JavaScript code.
-  - The following option were selected to prevent  errors and warning being returned owing to the strict nature of the checking:
+  - JSHint is a community-driven tool that detects errors and potential problems in JavaScript code.  
 
-    ![JSLint Options](assets/img/testing-jshint-options.png)
-
-  - script.js testing using JSHint passed the linter test successfully with the following selected additional option:
+  - script.js testing using JSHint passed the test successfully with the following selected additional option:
+    - jQuery
     - New JavaScript features (ES6)
       - Scripts use ECMAScript 6 features such as `const`
 
