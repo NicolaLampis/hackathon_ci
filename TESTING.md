@@ -57,13 +57,13 @@ The following **validation services** and **linters** were used to check the val
 
   - **Desktop Performance Report**
     
-    [Google Lighthouse - First Report Desktop](assets/images/s-one.png)
+    [Google Lighthouse - First Report Desktop](assets/images/screenshots/s-one.png)
     
-    ![Google Lighthouse - Improvement on Desktop](assets/images/s-two.png)
+    ![Google Lighthouse - Improvement on Desktop](assets/images/screenshots/s-two.png)
 
   - **Mobile Performance Report**
 
-    ![Google Lighthouse - Mobile](assets/images/s-mobile.png)
+    ![Google Lighthouse - Mobile](assets/images/screenshots/s-mobile.png)
 
 
 - [JSHint (version 2.12.0)](https://jshint.com/)
@@ -72,15 +72,9 @@ The following **validation services** and **linters** were used to check the val
 
     ![JSLint Options](assets/img/testing-jshint-options.png)
 
-  - clock.js and alarm.js testing using JSHint passed the linter test successfully with the following selected additional option:
+  - script.js testing using JSHint passed the linter test successfully with the following selected additional option:
     - New JavaScript features (ES6)
-      - This was selected as both scripts use ECMAScript 6 features such as `const`
-
-
-  - **style.js results**
-  
-    ![JSLint Options](assets/img/testing-jshint-results-alarm.png)
-
+      - Scripts use ECMAScript 6 features such as `const`
 
 ---
 
