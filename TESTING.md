@@ -46,9 +46,16 @@ The following **validation services** and **linters** were used to check the val
 
 
 ### HTML vlaidation 
-- ![vlaidator/screnshoot/HTML/index](/validation/index_html.png))
+
+#### index.html
+
+- ![vlaidator/screnshoot/HTML/index](/validation/index_html.png)
+#### game.html
+
 - ![vlaidator/screnshoot/HTML/game](/validation/game_html.png)
+
 ### CSS vladation 
+#### style.css
 - ![vlaidator/screnshoot/CSS](/validation/style_css.png)
 
 
