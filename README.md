@@ -56,7 +56,6 @@ This Project is an Team Event Project organized by [Code Institute](https://www.
   - [**Colour**](#colour)
   - [**Inspiration**](#inspiration)
   - [**Acknowledgements**](#acknowledgements)
-- [​](#)
 ​
 
 ---
@@ -87,7 +86,8 @@ We achieved this by:
 
 ​
 ### **User Stories** ###
-​- As a **user**, I want the home screen to be simple with a clear indication of what I can do and to be able to navigate it easily.
+
+- As a **user**, I want the home screen to be simple with a clear indication of what I can do and to be able to navigate it easily.
 - As a **user**, I want to play the game so I can compete against my friends and win the game.
 - As a **user**, I want to see the button to Start the game and would like to see the answers as I select them and see the score increase as I progress through the game.
 - As a **user**, I would like the game to have an Irish theme.
@@ -268,6 +268,9 @@ paint. net was used to create the wireframes during the design process.
     - The Quit Game and New Game buttons
     ![game-body](assets/images/screenshots/game-body.png)
 
+    - The quiz answer buttons show the correct answer to the user
+      ![quiz-buttons](assets/images/screenshots/quiz-answer-buttons.png)
+
 ​
 ### **Construction Table** ###
 ​
@@ -275,9 +278,10 @@ paint. net was used to create the wireframes during the design process.
 | Site Page | Page Section | JavaScript File |
 | :---: | --- | :---: |
 | game.html | Answer Buttons | script.js |
-| game.html | questions | script.js |
+| game.html | Questions | script.js |
 | game.html | Pot of Gold score counter | script.js |
 ​
+
 ​
 ​[Back to contents](#contents)
 
@@ -312,9 +316,10 @@ The following Bug Triage template project cards are used to manage the Bux fixes
 ​
 Markdown syntax is used to create **"To-Do" list** style checkboxes by adding `- [ ]` for an un-ticked checkbox and `- [x]` for a ticked checkbox on cards as a way of splitting a single complex task into a list of steps to be completed.
 ​
-![GitHub Projects - Development](assets/images/github-projects-development.png)
-![GitHub Projects - Bug Fixes](assets/images/github-projects-bugfixes.png)
+
+![GitHub Projects - Development](assets/images/screenshots/github-projects.png)
 ​
+
 [Back to contents](#contents)
 
 ---
@@ -389,6 +394,7 @@ git push
 ​
 - Testing information can be found in a separate [TESTING.md](TESTING.md) file.
 ​
+
 [Back to contents](#contents)
 
 ---
@@ -404,6 +410,7 @@ Each branch is then **merged** into the **master branch** using a **pull request
 ​
 Fixed bugs and issues are marked as [closed](https://github.com/NicolaLampis/hackathon_ci/issues?q=is%3Aissue+is%3Aclosed).
 ​
+
 [Back to contents](#contents)
 
 ---
@@ -473,13 +480,11 @@ The following websites were used as the starting point and inspiration for creat
 - [Smashing Magazine](https://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/) Guide on Local Storage
 - [GitHub](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) Help guide on using Error 404 pages on repositories.
 - [Stack Overflow](https://stackoverflow.com/) For help fixing so many thing that fell over on this project!
-  - [Stack Overflow](Stack Overflow URL) for ideas and help with ...
 - [Bootstrap](https://getbootstrap.com/)
-  - [Modal](https://getbootstrap.com/docs/4.5/components/modal/) example code was copied and adapted for the Help Page.
-  - [Form Groups](https://getbootstrap.com/docs/4.5/components/forms/) example code was copied and adapted for the alarm clock settings.
-  - [Accordion](https://getbootstrap.com/docs/4.0/components/collapse/) example code was copied and adapted for the alarm clock settings.
-  
-​The team thanks [Sue](https://github.com/SPH73) for her support, encoraging us along the way
+
+
+**​The team thanks [Sue](https://github.com/SPH73) for her support, encouraging us along the way**
+
 --- 
 ​
 ​
