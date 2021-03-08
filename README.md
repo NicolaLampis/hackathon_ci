@@ -4,99 +4,65 @@
  Hello there, <br> We are the Mean Green Trivia Machine 👋
 </p>
 
+---
 
-#### Let's have some fun!
-- 🔭 Do you know ? 
-- 🌱 Let's green your screen 
-- 🔥 We gonna win
-
-<hr>
-
-Hackathon Project
-======
-## <img src="assets/images/shamrock.png"> Happy St. Patrick's Day Quiz<img src="assets/images/shamrock.png">
+ **<img src="assets/images/shamrock.png"> Happy St. Patrick's Day Quiz<img src="assets/images/shamrock.png">**
 
 By: LaiMo, Nicola, Simon, Sue, SuzyBee, Tobi, Marina, March 2021<br>
 This Project is an Team Event Project organized by [Code Institute](https://www.codeinstitute.net/).
 
-Project description
-======
-
-This Project has the theme St. Patrick's Day.<br>
-We decided to build a simple fun Multiple Choice Game about St. Patricks Day and Ireland.
-
-Screenshot
-======
-
-All screenshots created using [Am I responsive](http://ami.responsivedesign.is/).
-
-<img src="">
-
-Live Project
-======
-[View the live project here](https://NicolaLampis.github.io/hackathon_ci/)
-
-## Contents ##
-​
-- [Project description](#project-description)
-- [Screenshot](#screenshot)
-- [Live Project](#live-project)
-  - [Contents](#contents)
-  - [​](#)
-  - [UX (User Experience)](#ux-user-experience)
-    - [Project Goals](#project-goals)
-    - [User Goals](#user-goals)
-    - [User Stories](#user-stories)
-    - [Site Owner Goals](#site-owner-goals)
-  - [​](#-1)
-  - [Design Choices](#design-choices)
-    - [Fonts](#fonts)
-    - [Colours](#colours)
-    - [Imagery](#imagery)
-    - [Wireframes](#wireframes)
-  - [Technologies](#technologies)
-    - [Languages](#languages)
-    - [Libraries](#libraries)
-    - [Tools](#tools)
-  - [Features](#features)
-    - [Features Implemented](#features-implemented)
-    - [Responsive Design](#responsive-design)
-    - [Interactive Elements](#interactive-elements)
-    - [Future Features](#future-features)
-    - [Site Construction](#site-construction)
-    - [Page Layout](#page-layout)
-    - [Construction Table](#construction-table)
-  - [​](#-2)
-  - [Project Management](#project-management)
-  - [​](#-3)
-  - [Version Control](#version-control)
-      - [**Gitpod Workspaces**](#gitpod-workspaces)
-      - [**Branches**](#branches)
-      - [**Working within a branch**](#working-within-a-branch)
-      - [**Merging branches in GitHub**](#merging-branches-in-github)
-      - [**Update Gitpod with the latest GitHub commits**](#update-gitpod-with-the-latest-github-commits)
-      - [**Pull Requests**](#pull-requests)
-  - [​](#-4)
-  - [Testing](#testing)
-  - [​](#-5)
-  - [Bugs](#bugs)
-  - [Deployment](#deployment)
-    - [Running Locally](#running-locally)
-  - [​](#-6)
-  - [Credits](#credits)
-    - [Images](#images)
-    - [Colour](#colour)
-    - [Audio](#audio)
-    - [Inspiration](#inspiration)
-    - [Acknowledgements](#acknowledgements)
-  - [​](#-7)
-​
-​
 ---
+## **Contents** ##
+
+- [**Contents**](#contents)
+- [**UX (User Experience)**](#ux-user-experience)
+  - [**Project Goals**](#project-goals)
+  - [**User Goals**](#user-goals)
+  - [**User Stories**](#user-stories)
+  - [**Site Owner Goals**](#site-owner-goals)
+- [**Design Choices**](#design-choices)
+  - [**Fonts**](#fonts)
+  - [**Colours**](#colours)
+  - [**Imagery**](#imagery)
+  - [**Wireframes**](#wireframes)
+- [**Technologies**](#technologies)
+  - [**Languages**](#languages)
+  - [**Libraries**](#libraries)
+  - [**Tools**](#tools)
+- [**Features**](#features)
+  - [**Features Implemented**](#features-implemented)
+  - [**Responsive Design**](#responsive-design)
+  - [**Interactive Elements**](#interactive-elements)
+  - [**Future Features**](#future-features)
+  - [**Site Construction**](#site-construction)
+  - [**Page Layout**](#page-layout)
+    - [**INDEX.HTML**](#indexhtml)
+    - [**GAME.HTML**](#gamehtml)
+  - [**Construction Table**](#construction-table)
+- [**Project Management**](#project-management)
+- [**Version Control**](#version-control)
+    - [**Gitpod Workspaces**](#gitpod-workspaces)
+    - [**Branches**](#branches)
+    - [**Working within a branch**](#working-within-a-branch)
+    - [**Merging branches in GitHub**](#merging-branches-in-github)
+    - [**Update Gitpod with the latest GitHub commits**](#update-gitpod-with-the-latest-github-commits)
+    - [**Pull Requests**](#pull-requests)
+- [**Testing**](#testing)
+- [**Bugs**](#bugs)
+- [**Deployment**](#deployment)
+  - [**Running Locally**](#running-locally)
+- [**Credits**](#credits)
+  - [**Images**](#images)
+  - [**Colour**](#colour)
+  - [**Inspiration**](#inspiration)
+  - [**Acknowledgements**](#acknowledgements)
+- [​](#)
 ​
-## UX (User Experience) ##
-​
-### Project Goals ###
+
+---
+## **UX (User Experience)** ##
+
+### **Project Goals** ###
 - To come up with a website that will help people to celebrate St Patrick’s day together, while apart.
 - We want to make effective use of course knowledge and collaborate together.
 - Make a project that works and is practical.
@@ -104,50 +70,50 @@ Live Project
 - Give attention to the project presentation and adhere to the theme.
 - Build something awesome that we are proud of as a team.
 ​
-​
-#### The FEATURES on the website will: ####
+
+The **FEATURES** on the website will:
 - Give the user a way to compete with friends and family using an Irish themed quiz game and allow them to keep up to date with our next quizzes through social media pages.
 ​
 
-#### I achieved this by: ####
+We achieved this by:
 - Making a fun story and game with various Irish themed questions.
 - Providing social media links in the footer section of each page.
 
 
-### User Goals ###
-
+### **User Goals** ###
 - The user will test their knowledge on Irish culture, history and geography
 - The user will learn more about Irish culture, history and geography
 - The user will gain points (gold coins) and be able to compare with other users.
 
 ​
-### User Stories ###
+### **User Stories** ###
+​- As a **user**, I want the home screen to be simple with a clear indication of what I can do and to be able to navigate it easily.
+- As a **user**, I want to play the game so I can compete against my friends and win the game.
+- As a **user**, I want to see the button to Start the game and would like to see the answers as I select them and see the score increase as I progress through the game.
+- As a **user**, I would like the game to have an Irish theme.
+- As a **user**, I want to see social media links in the footer.
+- As a **user**, I want to see my score at the end of the quiz.
+- As a **user**, I want to know more about St Patrick, so that i have a better knowledge about it.
+- As a **user** I want to see my progress, how many questions are left and how many i already answered.
+- As a **user** I want to give an answer and have feedback whether it is correct or not.
 ​
-- As a user, I want the home screen to be simple with a clear indication of what I can do and to be able to navigate it easily.
-- As a user, I want to play the game so I can compete against my friends and win the game.
-- As a user, I want to see the button to Start the game and would like to see the answers as I select them and see the score increase as I progress through the game.
-- As a user I would like the game to have an Irish theme.
-- As a user, I want to see social media links in the footer.
-- as a user I want to see my score at the end of the quiz.
-- as a user I want to know more about St Patrick, so that i have a better knowledge about it.
-- as a user i want to see my progress, how many questions are left and how many i already answered.
-- as a user i want to give an answer and have feedback whether it is correct or not.
+### **Site Owner Goals** ###
 ​
-### Site Owner Goals ###
+- As a **site owner**, I want to create an interactive website to present a clean, easy to understand display of information.
+- As a **site owner**, I want the user to see the social media links in the footer so they know how to interact with us.
+- As a **site owner**, I want the user to learn some fun and interesting facts about Ireland.​
+
 ​
-- As a site owner, I want to create an interactive website to present a clean, easy to understand display of information.
-- As a site owner, I want the user to see the social media links in the footer so they know how to interact with us. 
-​
-​
+[Back to contents](#contents)
+
 --- 
+## **Design Choices** ##
 ​
-## Design Choices ##
-​
-### Fonts ###
+### **Fonts** ###
 ​
 We chose the [Lobster](https://fonts.google.com/specimen/Lobster?preview.text_type=custom#standard-styles) font for the h1-h3 and the [Roboto](https://fonts.google.com/specimen/Roboto?preview.text_type=custom) font as basic and Sans-Serif as default font.
 ​
-### Colours ###
+### **Colours** ###
 ​
 We chose for the website the Irish and St. Patrick's Day colours.<br>
 ​
@@ -163,28 +129,28 @@ We chose for the website the Irish and St. Patrick's Day colours.<br>
 - *Green Pigment* (#009B4B) - Bright Green
 - *White* (#FFFFFF) - White
 - *Heat Wave* (#FF7900) - Bright Orange
-- rgb(66, 212, 110) - Dark Green for the answer correct button
-- #f8953e - Light Orange for the answer incorrect button
+- *Emerald* (#42D46E) - Emerald Green for the answer correct button
+- *Deep Saffron* (#F8953E) - Orange for the answer incorrect button
 
 
 These colours will compliment each other well and provide the user with a distinct, recognisable  colour scheme commonly identified with St. Patrick's Day celebrations.
 
-### Imagery ###
+### **Imagery** ###
 ​
 The background image with the shamrocks for the Body represent the luck of the irish.<br>
-The Hero image is the irish flag in a banner desing.
+The Hero image is the irish flag in a banner design.
 ​
-### Wireframes ###
+### **Wireframes** ###
 ​
 paint. net was used to create the wireframes during the design process.
 [View the wireframes here.](wireframes/paddy-day-quiz.jpg)
 
+[Back to contents](#contents)
 
-​---  
+---
+## **Technologies** ##
 ​
-## Technologies ##
-​
-### Languages ###
+### **Languages** ###
 ​
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
   - Used as the main markup language for the website content.
@@ -193,7 +159,7 @@ paint. net was used to create the wireframes during the design process.
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
   - Used to create the interactive functionality of the website
 ​
-### Libraries ###
+### **Libraries** ###
 ​
 - [Bootstrap](https://getbootstrap.com/)
   - Used to design a mobile-first responsive website layout.
@@ -204,13 +170,13 @@ paint. net was used to create the wireframes during the design process.
 ​
 ​
 ​
-### Tools ###
+### **Tools** ###
 ​
 - [Git](https://git-scm.com/)
   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
 - [GitHub](https://github.com/)
   - Used to store, host and deploy the project files and source code after being pushed from Git.
-- [Gitpod](https://www.gitpod.io/)
+- [GitPod](https://www.gitpod.io/)
   - An online IDE linked to the GitHub repository used for the majority of the code development.
 - [CodePen](https://codepen.io/simonjvardy/)
   - An online code editor and open-source learning environment used to test small sections of code quickly and easily.
@@ -230,60 +196,93 @@ paint. net was used to create the wireframes during the design process.
   - paint.net is a photo and images editor program.  
 ​- [Favicon](https://favicon.io/)
   - Used for icons to enhance headings and add emphasis to text.
-  
+
+[Back to contents](#contents)
+
 ---
 ​
 ​
-## Features ##
+## **Features** ##
 ​
 ​
-### Features Implemented ###
+### **Features Implemented** ###
 ​
-### Responsive Design ###
+### **Responsive Design** ###
 ​
  - Responsive mobile first design using a [Bootstrap](https://getbootstrap.com/) framework.
   - The site format was designed for **smaller** device sizes such as **mobile** and **tablet** devices to give a simple, user friendly display.
-  - **<more design features>.**
 ​
 ​
-### Interactive Elements ###
+### **Interactive Elements** ###
 ​
-- The main features of the site are:
-  - **<describe features>**
+- The **main features** of the site are:
+  - A home page with a welcome message and game start button as a user CTA 
+  - An interactive quiz with 10 questions per game.
+  - A player score counter represented by gold coins.
+  - The bank of questions are stored in a JavaScript dictionary for ease of deployment.
+  - The questions are a random selection from the question bank to keep the game interesting for the returning player.
+  - The questions are all based around an Irish Theme and St. Patrick's Day
+  - There are social media links in the footer section on all pages
+  - The correct and incorrect answers are shown by colouring the buttons after answering a question.
+    ![quiz answer buttons](assets/images/screenshots/quiz-answer-buttons.png)
+  - The quiz proceeds to the next question after a short time delay when the previous question has been answered.
   
   
-- Additional Site features:
+- **Additional Site features:**
   - A friendly HTTP 404 Error landing page for site visitors to see if a requested page is unavailable or cannot be accessed.
     - The page provides a button to click to return the visitor to the homepage.
 ​
-      ![404 Error](wireframes/404-img.png)
+      ![404 Error](assets/images/screenshots/404-error.png)
 ​
 ​
-### Future Features ###
+### **Future Features** ###
 ​
 - This small app has the potential to be expanded with **additional features**:
-  - **,future features list** selection button
+  - Further questions added in a JSON file
+  - 2+ player games
+    - Add in Player's names 
   
 ​
-### Site Construction  ###
+### **Site Construction**  ###
 ​
 ​
-### Page Layout ###
+### **Page Layout** ###
+#### **INDEX.HTML** ####
+
 - Body
+  - The page contains a welcome message and game start button
+    ![index-body](assets/images/screenshots/index-body.png)
+
+- Footer
+  - The footer section contains the social media links
+    ![index-footer](assets/images/screenshots/index-footer.png)
+
 ​
+#### **GAME.HTML** ####
+
+- Body
+  - The page contains the main game functionality
+    - The Question
+    - The 4 answer submission buttons containing the answers
+    - The gold coins score counter
+    - The Quit Game and New Game buttons
+    ![game-body](assets/images/screenshots/game-body.png)
+
 ​
-### Construction Table ###
+### **Construction Table** ###
 ​
 ​
 | Site Page | Page Section | JavaScript File |
 | :---: | --- | :---: |
-| Home | <Element> | script.js |
+| game.html | Answer Buttons | script.js |
+| game.html | questions | script.js |
+| game.html | Pot of Gold score counter | script.js |
 ​
 ​
-​
+​[Back to contents](#contents)
+
 ---
-​
-## Project Management ##
+## **Project Management** ##
 ​
 GitHub [Projects](project GitHub repo URL/projects) are used to organize the planning and development of the website.
 Three GitHub projects are used to manage different aspects of the site development:
@@ -316,9 +315,11 @@ Markdown syntax is used to create **"To-Do" list** style checkboxes by adding `-
 ![GitHub Projects - Development](assets/images/github-projects-development.png)
 ![GitHub Projects - Bug Fixes](assets/images/github-projects-bugfixes.png)
 ​
+[Back to contents](#contents)
+
 ---
-​
-## Version Control ##
+
+## **Version Control** ##
 **Version control** for this repository is managed within **GitHub** and **Gitpod** using separate forked repositories for each team member.
 
 Each member synchronised their own GitHub repositories by adding an additional remote  named `upstream` linked to the team's main [GitHub Repository](https://github.com/NicolaLampis/hackathon_ci) by entering the following steps Git commands:
@@ -381,15 +382,17 @@ git fetch upstream
 git merge upstream/master
 git push
 ```
-​
----
+​[Back to contents](#contents)
 
-## Testing ##
-​
-- Testing information can be found in a separate [testing.md](testing.md) file.
-​
 ---
-## Bugs ##
+## **Testing** ##
+​
+- Testing information can be found in a separate [TESTING.md](TESTING.md) file.
+​
+[Back to contents](#contents)
+
+---
+## **Bugs** ##
 ​
 
 To manage bugs and issues tracking, the default GitHub [bug_report.md template](https://github.com/NicolaLampis/hackathon_ci/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)) has been created and activated within the repository settings Features > Issues section.
@@ -401,10 +404,10 @@ Each branch is then **merged** into the **master branch** using a **pull request
 ​
 Fixed bugs and issues are marked as [closed](https://github.com/NicolaLampis/hackathon_ci/issues?q=is%3Aissue+is%3Aclosed).
 ​
+[Back to contents](#contents)
 
 ---
-​
-## Deployment ##
+## **Deployment** ##
 ​
 The website was developed using both *Gitpod* and *Visual Studio Code* and using *Git* pushed to *GitHub*, which hosts the repository. I made the following steps to deploy the site using *GitHub Pages*:
 ​
@@ -418,11 +421,11 @@ The website was developed using both *Gitpod* and *Visual Studio Code* and using
 - Clicked to **confirm** my **selection**.
 - [Steal the Gold](https://NicolaLampis.github.io/hackathon_ci/) is now **live** on **GitHub Pages**.
 ​
-### Running Locally ###
+### **Running Locally** ###
 ​
-Cloning alarm-clock from GitHub:
+Cloning  from GitHub:
 ​
-- Navigate to **<GitHub>/<Repo Name>**.
+- Navigate to **[hackerthon-ci](https://github.com/NicolaLampis/hackathon_ci)**.
 - Click the **Code** button.
 - **Copy** the url in the dropdown box.
 - Using your favourite **IDE** open up your preferred terminal.
@@ -434,35 +437,30 @@ Copy the following code and input it into your terminal to clone alarm-clock:
 gh repo clone NicolaLampis/hackathon_ci
 ```
 ​
+[Back to contents](#contents)
+
 ---
+## **Credits** ##
 ​
-## Credits ##
-​
-### Images ###
+### **Images** ###
 ​
 The background image, the irish banner and the Shamrock image are from the website [pixabay](https://pixabay.com/de/images/search/irisch/).
 ​
-- Homepage
-  - <Image Credit>
 ​
-​
-### Colour ###
+### **Colour** ###
 ​
 - The colour palette was identified on [Coolors](https://coolors.co/)
 ​
 ​
-### Audio ###
-​
-- The audio file...
-​
-### Inspiration ###
+### **Inspiration** ###
 ​
 The following websites were used as the starting point and inspiration for creating the HTML Canvas clock code:
-- [website name](website URL) <site name / description>.
+- [Federvgh MS-2 Project](Lhttps://federvgh.github.io/MS2-Quiz-Game/) MS-2 Quiz Game
+- [FastWeb](https://www.fastweb.com/student-life/articles/saint-patricks-day-quiz) Fun St. Patrick's Day Quiz
 ​
+
 ​
-​
-### Acknowledgements ###
+### **Acknowledgements** ###
 ​
 - [W3Schools](https://www.w3schools.com/) for just being a constant source of help and inspiration!
 - [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/) Course material for the inspiration from code-along challenges.
