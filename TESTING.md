@@ -36,9 +36,11 @@ The following **validation services** and **linters** were used to check the val
 
 - [W3C Markup Validation](https://validator.w3.org/) 
   - This validator checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc.
+    - Document checking completed. No errors or warnings to show.
 
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
   - This validator checks the validity of cascading style sheets (css) and (X)HTML documents with style sheets.
+    - Congratulations! No Error Found. This document validates as CSS level 3 + SVG
 
 - [Chrome DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse)
   - An open-source automated tool for improving webpages by running audits for performance, accessibility, progressive web apps, SEO etc.
