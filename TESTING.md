@@ -44,6 +44,14 @@ The following **validation services** and **linters** were used to check the val
   - An open-source automated tool for improving webpages by running audits for performance, accessibility, progressive web apps, SEO etc.
 
 
+
+### HTML vlaidation 
+- ![vlaidator/screnshoot/HTML/index](/validation/index_html.png))
+- ![vlaidator/screnshoot/HTML/game](/validation/game_html.png)
+### CSS vladation 
+- ![vlaidator/screnshoot/CSS](/validation/style_css.png)
+
+
   - **Desktop Performance Report**
     
     ![Google Lighthouse - Desktop](assets/images/<image-filename>.png)

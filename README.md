@@ -387,17 +387,6 @@ git push
 ---
 
 ## Testing ##
-### Validation of the code: W have used the follwoing tech to test my code:
-- [W3C/HTML](https://validator.w3.org/)
-to check my  HTML code.
-- [W3C/CSS](https://jigsaw.w3.org/css-validator/)
-to check my CSS code.
-
-- ![vlaidator/screnshoot/HTML/index](/validation/index_html.png))
-- ![vlaidator/screnshoot/HTML/game](/validation/game_html.png)
-
-- ![vlaidator/screnshoot/CSS](/validation/style_css.png)
-​
 - Testing information can be found in a separate [testing.md](testing.md) file.
 ​
 ---
