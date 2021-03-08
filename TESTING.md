@@ -17,7 +17,6 @@
     - [**Validation Services**](#validation-services)
   - [**Manual Testing**](#manual-testing)
     - [**Unit Testing**](#unit-testing)
-    - [**User Acceptance Testing (UAT)**](#user-acceptance-testing-uat)
     - [**Peer Code Review**](#peer-code-review)
     - [**Testing undertaken on desktop**](#testing-undertaken-on-desktop)
     - [**Testing undertaken on tablet and phone devices**](#testing-undertaken-on-tablet-and-phone-devices)
@@ -133,16 +132,7 @@ The issue log is managed on the [GitHub Project Issues section](https://github.c
 
 #### **Known Bugs** ####
 
-[Issue #xx:](<issue-URL>)
-- **Bug Report Title**
-  - .
-
-[Issue #xx:](<issue-URL>)
-- **Bug Report Title**
-  - .
 
 #### **Unsolved Issues** ####
 
-[Issue #xx:](<issue-URL>)
-- **Bug Report Title**
-  - .
+
