@@ -328,19 +328,11 @@ The Projects are created using the following GitHub templates:
 - `Automated kanban` template for the **Steal the gold** project
 ​
 The following kanban project cards are used to manage the tasks:
-- **Backlog** - this card is used to capture ideas for project tasks.
-- **To Do** - this is the current work queue for the project.
-- **In Progress** - this is the list of tasks currently in work.
+- **Start** - this card is used to capture ideas for project tasks.
     - New issues and pull requests are automatically added to this column using project card automation options.
-- **Testing** - Testing tasks list
-- **Done** - completed tasks
+- **In Work** - this is the list of tasks currently in work.
+- **Finished Tasks** - completed tasks
 ​
-The following Bug Triage template project cards are used to manage the Bux fixes tasks:
-- **Needs Triage** - this card is used to capture new bugs prior to assigning a priority.
-  - A triage card is more appropriate for larger projects than this but left in as this is where all new issues are assigned when linking a project to a new issue.
-- **High Priority** - this is the high priority queue for the project.
-- **Low Priority** - this is the low priority queue for the project.
-- **Closed** - completed tasks.
 ​
 Markdown syntax is used to create **"To-Do" list** style checkboxes by adding `- [ ]` for an un-ticked checkbox and `- [x]` for a ticked checkbox on cards as a way of splitting a single complex task into a list of steps to be completed.
 ​
