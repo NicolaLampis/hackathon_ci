@@ -15,11 +15,11 @@
   - [**Table of Contents**](#table-of-contents)
   - [**Automated Testing**](#automated-testing)
     - [**Validation Services**](#validation-services)
-    - [HTML vlaidation](#html-vlaidation)
-      - [index.html](#indexhtml)
-      - [game.html](#gamehtml)
-    - [CSS vladation](#css-vladation)
-      - [style.css](#stylecss)
+    - [**HTML validation**](#html-validation)
+      - [**index.html**](#indexhtml)
+      - [**game.html**](#gamehtml)
+    - [**CSS validation** ###](#css-validation-)
+      - [**style.css**](#stylecss)
   - [**Manual Testing**](#manual-testing)
     - [**Unit Testing**](#unit-testing)
     - [**Peer Code Review**](#peer-code-review)
@@ -60,18 +60,18 @@ The following **validation services** and **linters** were used to check the val
         - Best Practice 100%
 
 
-### HTML vlaidation 
+### **HTML validation** ###
 
-#### index.html
+#### **index.html** ###
 
-- ![validation/screnshot/HTML/index](/validation/index_html.png)
-#### game.html
+- ![validation/screenshot/HTML/index](/validation/index_html.png)
+#### **game.html** ###
 
-- ![validation/screnshot/HTML/game](/validation/game_html.png)
+- ![validation/screenshot/HTML/game](/validation/game_html.png)
 
-### CSS vladation 
-#### style.css
-- ![validation/screnshot/CSS](/validation/style_css.png)
+### **CSS validation** ### 
+#### **style.css** ###
+- ![validation/screenshot/CSS](/validation/style_css.png)
 
 
   - **Desktop Performance Report**

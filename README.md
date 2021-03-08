@@ -499,6 +499,7 @@ The following websites were used as the starting point and inspiration for creat
 - [rgraph](https://www.rgraph.net/canvas/reference/getcontext.html) The getContext() function tutorial.
 - [Smashing Magazine](https://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/) Guide on Local Storage
 - [GitHub](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) Help guide on using Error 404 pages on repositories.
+- [Colorlib](https://colorlib.com) the 404.html was made by Colorlib. Go visit their website for more awesome templates, themes and tools.
 - [Stack Overflow](https://stackoverflow.com/) For help fixing so many thing that fell over on this project!
 - [Bootstrap](https://getbootstrap.com/)
 
