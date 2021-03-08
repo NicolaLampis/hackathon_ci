@@ -319,16 +319,13 @@ paint. net was used to create the wireframes during the design process.
 ---
 ## **Project Management** ##
 ​
-GitHub [Projects](project GitHub repo URL/projects) are used to organize the planning and development of the website.
+GitHub [Projects](https://github.com/NicolaLampis/hackathon_ci/projects/) are used to organize the planning and development of the website.
 Three GitHub projects are used to manage different aspects of the site development:
-- [Development](project GitHub repo URL/projects/1)
-  - Manages general project tasks and files including Documentation, HTML & CSS
-- [Bug Fixes](project GitHub repo URL/projects)
-  - Manages the triage and prioritization of the bug fixes.
+- [Steal the gold](https://github.com/NicolaLampis/hackathon_ci/projects/1)
+  - Manages all project tasks and files including Documentation, HTML, CSS & JavaScript.
 ​
 The Projects are created using the following GitHub templates:
-- `Automated kanban` template for the **Development** and **Development - JavaScript** projects 
-- `Bug Triage` template for the **Bug Fixes** project.
+- `Automated kanban` template for the **Steal the gold** project
 ​
 The following kanban project cards are used to manage the tasks:
 - **Backlog** - this card is used to capture ideas for project tasks.
