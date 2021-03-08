@@ -36,9 +36,11 @@ The following **validation services** and **linters** were used to check the val
 
 - [W3C Markup Validation](https://validator.w3.org/) 
   - This validator checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc.
+    - Document checking completed. No errors or warnings to show.
 
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
   - This validator checks the validity of cascading style sheets (css) and (X)HTML documents with style sheets.
+    - Congratulations! No Error Found. This document validates as CSS level 3 + SVG
 
 - [Chrome DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse)
   - An open-source automated tool for improving webpages by running audits for performance, accessibility, progressive web apps, SEO etc.
@@ -55,13 +57,13 @@ The following **validation services** and **linters** were used to check the val
 
   - **Desktop Performance Report**
     
-    [Google Lighthouse - First Report Desktop](assets/images/s-one.png)
+    [Google Lighthouse - First Report Desktop](assets/images/screenshots/s-one.png)
     
-    ![Google Lighthouse - Improvement on Desktop](assets/images/s-two.png)
+    ![Google Lighthouse - Improvement on Desktop](assets/images/screenshots/s-two.png)
 
   - **Mobile Performance Report**
 
-    ![Google Lighthouse - Mobile](assets/images/s-mobile.png)
+    ![Google Lighthouse - Mobile](assets/images/screenshots/s-mobile.png)
 
 
 - [JSHint (version 2.12.0)](https://jshint.com/)
@@ -70,15 +72,9 @@ The following **validation services** and **linters** were used to check the val
 
     ![JSLint Options](assets/img/testing-jshint-options.png)
 
-  - clock.js and alarm.js testing using JSHint passed the linter test successfully with the following selected additional option:
+  - script.js testing using JSHint passed the linter test successfully with the following selected additional option:
     - New JavaScript features (ES6)
-      - This was selected as both scripts use ECMAScript 6 features such as `const`
-
-
-  - **style.js results**
-  
-    ![JSLint Options](assets/img/testing-jshint-results-alarm.png)
-
+      - Scripts use ECMAScript 6 features such as `const`
 
 ---
 
@@ -90,15 +86,6 @@ The following **validation services** and **linters** were used to check the val
 - Unit Test scope,
 - The test cases,
 - The pass / fail record for each test case.
-
-
-### **User Acceptance Testing (UAT)** ###
-[UAT document](testing/uat-test-plan.pdf) containing:
-- UAT approach (scope, assumptions and constraints, team roles and responsibilities etc.), 
-- Identified risks, 
-- The test cases,
-- The pass / fail record for each test case.
-
 
 ### **Peer Code Review** ###
 The deployed website link was subjected to peer code review and testing:
