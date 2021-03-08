@@ -430,9 +430,7 @@ Cloning  from GitHub:
 - **Copy** the url in the dropdown box.
 - Using your favourite **IDE** open up your preferred terminal.
 - **Navigate** to your desired file location.
-​
-Copy the following code and input it into your terminal to clone alarm-clock:
-​
+​​
 ```
 gh repo clone NicolaLampis/hackathon_ci
 ```
@@ -481,7 +479,7 @@ The following websites were used as the starting point and inspiration for creat
   - [Form Groups](https://getbootstrap.com/docs/4.5/components/forms/) example code was copied and adapted for the alarm clock settings.
   - [Accordion](https://getbootstrap.com/docs/4.0/components/collapse/) example code was copied and adapted for the alarm clock settings.
   
-​
+​The team thanks [Sue](https://github.com/SPH73) for her support, encoraging us along the way
 --- 
 ​
 ​
