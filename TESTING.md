@@ -15,6 +15,11 @@
   - [**Table of Contents**](#table-of-contents)
   - [**Automated Testing**](#automated-testing)
     - [**Validation Services**](#validation-services)
+    - [HTML vlaidation](#html-vlaidation)
+      - [index.html](#indexhtml)
+      - [game.html](#gamehtml)
+    - [CSS vladation](#css-vladation)
+      - [style.css](#stylecss)
   - [**Manual Testing**](#manual-testing)
     - [**Unit Testing**](#unit-testing)
     - [**Peer Code Review**](#peer-code-review)
@@ -59,14 +64,14 @@ The following **validation services** and **linters** were used to check the val
 
 #### index.html
 
-- ![vlaidator/screnshoot/HTML/index](/validation/index_html.png)
+- ![validation/screnshot/HTML/index](/validation/index_html.png)
 #### game.html
 
-- ![vlaidator/screnshoot/HTML/game](/validation/game_html.png)
+- ![validation/screnshot/HTML/game](/validation/game_html.png)
 
 ### CSS vladation 
 #### style.css
-- ![vlaidator/screnshoot/CSS](/validation/style_css.png)
+- ![validation/screnshot/CSS](/validation/style_css.png)
 
 
   - **Desktop Performance Report**
@@ -94,7 +99,7 @@ The following **validation services** and **linters** were used to check the val
 ## **Manual Testing** ##
 
 ### **Unit Testing** ###
-[Unit Testing document](testing/unit-test-plan.pdf) containing:
+[Unit Testing document](testing/game-unit-test-plan.pdf) containing:
 - Unit Test scope,
 - The test cases,
 - The pass / fail record for each test case.
