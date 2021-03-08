@@ -55,8 +55,6 @@ const game = (function () {
                 correctAnswers += 1;
             }
 
-            console.log(givenAnswer + " : " + correctAnswers); // DEBUG PURPOSES
-
             return question.correct;
         },
 
@@ -118,9 +116,9 @@ const pageHandler = (function () {
                 });
             });
 
-            for (let i = 0; i < answersElements.length; i++) {
-                answersElements[i].addEventListener("click", () => {
-                    pageHandler.giveAnswer(questionElement.value, answersElements[i].value);
+            for (let element of answersElements) {
+                element.addEventListener("click", () => {
+                    pageHandler.giveAnswer(questionElement.value, element.value);
                 });
             }
 
@@ -141,8 +139,8 @@ const pageHandler = (function () {
 
             } else {
 
-                for (let i = 0; i < answersElements.length; i++) {
-                    answersElements[i].classList.remove("correctAnswer", "wrongAnswer");
+                for (let element of  answersElements) {
+                    element.classList.remove("correctAnswer", "wrongAnswer");
                 }
 
                 correctAnswersElement.innerText = game.status()[1];
@@ -154,7 +152,7 @@ const pageHandler = (function () {
                  * Reference: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
                  * @param array
                  */
-                const shuffleArray = function (array) {
+                const shuffleArray = array => {
                     for (let i = array.length - 1; i > 0; i--) {
                         const j = Math.floor(Math.random() * (i + 1));
                         [array[i], array[j]] = [array[j], array[i]];
@@ -180,12 +178,12 @@ const pageHandler = (function () {
         giveAnswer: function (questionId, clickedAnswer) {
             const correctAnswer = game.answer(questionId, clickedAnswer);
 
-            for (let i = 0; i < answersElements.length; i++) {
-                answersElements[i].disabled = true;
-                if (answersElements[i].value === correctAnswer) {
-                    answersElements[i].classList.add("correctAnswer");
+            for (let element of answersElements) {
+                element.disabled = true;
+                if (element.value === correctAnswer) {
+                    element.classList.add("correctAnswer");
                 } else {
-                    answersElements[i].classList.add("wrongAnswer");
+                    element.classList.add("wrongAnswer");
                 }
             }
             setTimeout(function () {
