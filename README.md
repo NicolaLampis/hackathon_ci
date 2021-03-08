@@ -95,8 +95,8 @@ We achieved this by:
 - As a **user**, I want to see social media links in the footer.
 - As a **user**, I want to see my score at the end of the quiz.
 - As a **user**, I want to know more about St Patrick, so that i have a better knowledge about it.
-- As a **user** I want to see my progress, how many questions are left and how many i already answered.
-- As a **user** I want to give an answer and have feedback whether it is correct or not.
+- As a **user**, I want to see my progress, how many questions are left and how many i already answered.
+- As a **user**, I want to give an answer and have feedback whether it is correct or not.
 ​
 ### **Site Owner Goals** ###
 ​
